@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x60"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x33"
+            app:typeface="@string/app_font_regular"
+            tools:text="Hey Maria !" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x10"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:text="@string/your_order_is_ready"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x18"
+            app:typeface="@string/app_font_light" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x250"
+            android:layout_marginBottom="@dimen/x20"
+            android:layout_marginTop="@dimen/x20"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/x250"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/goldcircle" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/tv_oder_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:textColor="@color/color_golden_order"
+                android:textSize="@dimen/x50"
+                app:typeface="@string/app_font_light"
+                tools:text="125" />
+
+        </RelativeLayout>
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:text="Show this to Bartender"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x18"
+            app:typeface="@string/app_font_light" />
+
+    </LinearLayout>
+</ScrollView>

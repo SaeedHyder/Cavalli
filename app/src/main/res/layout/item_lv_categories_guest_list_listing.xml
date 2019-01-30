@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center_vertical">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_guest_list_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginEnd="@dimen/x3"
+            android:layout_weight="0.8"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:alpha="0.7"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/x16"
+            app:typeface="@string/app_font_regular"
+            tools:text="Take a Selfie in Lounge" />
+
+        <Button
+            android:id="@+id/btn_add_guest"
+            android:layout_width="@dimen/x5"
+            android:layout_height="@dimen/x30"
+            android:background="@drawable/add_guest_btn"
+            android:text="Add Guest"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x14"
+            android:layout_weight="0.3"/>
+
+    </LinearLayout>
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/x3"
+        android:alpha="0.7"
+        android:textColor="@color/light_grey"
+        android:textSize="@dimen/x12"
+        app:typeface="@string/app_font_light"
+        tools:text="@string/lorem_ipsum_very_small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/light_grey"
+        android:alpha="0.6"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_marginBottom="@dimen/x10"/>
+
+</LinearLayout>

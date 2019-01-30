@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:orientation="vertical">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/edt_reservation_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x30"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            tools:hint="Reservation Title"
+            android:imeOptions="actionNext"
+            android:inputType="textMultiLine"
+            android:maxLength="30"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/x15"
+            app:testType="nocheck"
+            app:typeface="@string/app_font_light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_time_day_date"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="Monday, 18 Aug 2018, 10:30 pm"
+            android:maxLines="1"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/x15"
+            app:typeface="@string/app_font_light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/full_names"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/x15"
+            app:typeface="@string/app_font_light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/email_address"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/x15"
+            app:typeface="@string/app_font_light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/phone_number"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/x15"
+            app:typeface="@string/app_font_light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black" />
+
+        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+            android:id="@+id/edt_secondary_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/secondary_phone_number"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColor="@color/light_grey"
+            android:textColorHint="@color/light_grey"
+            android:textSize="@dimen/x15"
+            app:testType="phone"
+            app:typeface="@string/app_font_light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/edt_select_date"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:gravity="center_vertical"
+            android:inputType="date"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:text="@string/select_date"
+            android:textColor="@color/light_grey"
+            android:textColorHint="@color/light_grey"
+            android:textSize="@dimen/x15"
+            app:testType="date"
+            app:typeface="@string/app_font_light"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:id="@+id/sp_category"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:gravity="center_vertical"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:id="@+id/sp_time"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:gravity="center_vertical"
+            android:visibility="gone"/>
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="Time"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/x15"
+            app:typeface="@string/app_font_light"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:id="@+id/sp_total_people"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x20"
+            android:gravity="center_vertical" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.3"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rectangle_reservations"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_marginBottom="@dimen/x20">
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/x5"
+                android:text="@string/status_is_pending_till_confirmed_by_reservation_team"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x15"
+                app:typeface="@string/app_font_regular" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/x20"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+
+            android:background="@drawable/loginbtn"
+            android:text="@string/save_changes"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x18" />
+
+        <Button
+            android:id="@+id/btn_cancel_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/x20"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginBottom="@dimen/x20"
+            android:background="@drawable/transparent_button"
+            android:text="@string/cancel_request"
+            android:textAllCaps="false"
+            android:textColor="@color/app_golden"
+            android:shadowColor="@color/transparent"
+            android:textSize="@dimen/x18" />
+
+    </LinearLayout>
+
+</ScrollView>

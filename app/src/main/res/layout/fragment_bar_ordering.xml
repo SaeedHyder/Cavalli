@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/x5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x10"
+                android:layout_marginEnd="@dimen/x8"
+                android:layout_marginStart="@dimen/x8"
+                android:layout_marginTop="@dimen/x10"
+                android:layout_weight="0.8"
+                android:alpha="0.8"
+                android:text="Mix Drinks"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x16"
+                app:typeface="@string/app_font_bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_see_all"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x10"
+                android:layout_marginRight="@dimen/x5"
+                android:layout_marginTop="@dimen/x10"
+                android:layout_weight="0.3"
+                android:orientation="horizontal">
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/x8"
+                    android:layout_marginStart="@dimen/x8"
+                    android:alpha="0.8"
+                    android:text="@string/see_all"
+                    android:textColor="@color/app_golden"
+                    android:textSize="@dimen/x16"
+                    app:typeface="@string/app_font_regular" />
+
+                <ImageView
+                    android:layout_width="@dimen/x9"
+                    android:layout_height="@dimen/x9"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/x8"
+                    android:background="@drawable/seeallgolden" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:nestedScrollingEnabled="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x10"
+                android:layout_marginEnd="@dimen/x8"
+                android:layout_marginStart="@dimen/x8"
+                android:layout_marginTop="@dimen/x10"
+                android:layout_weight="0.8"
+                android:alpha="0.8"
+                android:text="Cocktails"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x16"
+                app:typeface="@string/app_font_bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_see_all2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x10"
+                android:layout_marginRight="@dimen/x5"
+                android:layout_marginTop="@dimen/x10"
+                android:layout_weight="0.3"
+                android:orientation="horizontal">
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/x8"
+                    android:layout_marginStart="@dimen/x8"
+                    android:alpha="0.8"
+                    android:text="@string/see_all"
+                    android:textColor="@color/app_golden"
+                    android:textSize="@dimen/x16"
+                    app:typeface="@string/app_font_regular" />
+
+                <ImageView
+                    android:layout_width="@dimen/x9"
+                    android:layout_height="@dimen/x9"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/x8"
+                    android:background="@drawable/seeallgolden" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:nestedScrollingEnabled="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x10"
+                android:layout_marginEnd="@dimen/x8"
+                android:layout_marginStart="@dimen/x8"
+                android:layout_marginTop="@dimen/x10"
+                android:layout_weight="0.8"
+                android:alpha="0.8"
+                android:text="Shots"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x16"
+                app:typeface="@string/app_font_bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_see_all3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x10"
+                android:layout_marginRight="@dimen/x5"
+                android:layout_marginTop="@dimen/x10"
+                android:layout_weight="0.3"
+                android:orientation="horizontal">
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/x8"
+                    android:layout_marginStart="@dimen/x8"
+                    android:alpha="0.8"
+                    android:text="@string/see_all"
+                    android:textColor="@color/app_golden"
+                    android:textSize="@dimen/x16"
+                    app:typeface="@string/app_font_regular" />
+
+                <ImageView
+                    android:layout_width="@dimen/x9"
+                    android:layout_height="@dimen/x9"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/x8"
+                    android:background="@drawable/seeallgolden" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:nestedScrollingEnabled="true" />
+
+
+
+    </LinearLayout>
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/txt_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/no_data_available"
+        android:textColor="@color/dark_grey"
+        android:layout_gravity="center"
+        app:typeface="Roboto-Regular.ttf"
+        android:textSize="@dimen/x15" />
+
+    <ExpandableListView
+        android:id="@+id/elv_bar_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:groupIndicator="@null"/>
+
+</LinearLayout>

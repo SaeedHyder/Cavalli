@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x400"
+                android:layout_gravity="center"
+                android:clipToPadding="false"
+                android:paddingEnd="@dimen/x30"
+                android:paddingStart="@dimen/x30"
+                android:layout_marginTop="@dimen/x20"/>
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/tv_package_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/x10"
+                android:layout_marginRight="@dimen/x10"
+                android:layout_marginTop="@dimen/x10"
+                android:alpha="0.7"
+                android:gravity="center_vertical"
+                android:text="DJ BEATS"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x18"
+                app:typeface="@string/app_font_light" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/tv_package_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/x40"
+                android:layout_marginEnd="@dimen/x40"
+                android:layout_marginTop="@dimen/x5"
+                android:gravity="center"
+                android:text="@string/lorem_ipsum_small"
+                android:textColor="@color/black"
+                android:alpha="0.8"
+                android:textSize="@dimen/x12"
+                app:typeface="@string/app_font_light" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginEnd="@dimen/x10"
+                android:layout_marginStart="@dimen/x10"
+                android:layout_marginTop="@dimen/x15"
+                android:alpha="0.3"
+                android:background="@color/viewLine" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

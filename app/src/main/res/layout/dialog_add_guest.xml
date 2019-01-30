@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/roundshapelayout"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="@dimen/x280"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/x10"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sp_category"
+                style="@style/spinner_style"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="@dimen/x30"
+                android:layout_marginLeft="@dimen/x20"
+                android:layout_marginRight="@dimen/x10"
+                android:layout_marginTop="@dimen/x20"
+                android:gravity="center_vertical" />
+
+            <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                android:id="@+id/guest_name"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="@dimen/x30"
+                android:layout_marginBottom="@dimen/x5"
+                android:layout_marginRight="@dimen/x10"
+                android:layout_marginTop="@dimen/x20"
+                android:background="@color/transparent"
+                android:gravity="center_vertical"
+                android:hint="@string/guest_full_name"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:textColor="@color/light_grey"
+                android:textColorHint="@color/light_grey"
+                android:textSize="@dimen/x16"
+                app:testType="personFullName"
+                app:typeface="@string/app_font_regular" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x15"
+            android:layout_marginEnd="@dimen/x10"
+            android:layout_marginStart="@dimen/x10"
+            android:alpha="0.8"
+            android:background="@color/grey" />
+
+        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+            android:id="@+id/edt_guest_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/email_address"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:textColor="@color/light_grey"
+            android:textColorHint="@color/light_grey"
+            android:textSize="@dimen/x16"
+            app:testType="email"
+            app:typeface="@string/app_font_regular" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x15"
+            android:layout_marginEnd="@dimen/x10"
+            android:layout_marginStart="@dimen/x10"
+            android:alpha="0.8"
+            android:background="@color/grey" />
+
+        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+            android:id="@+id/edt_guest_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/txt_enter_phone_no"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColor="@color/light_grey"
+            android:textColorHint="@color/light_grey"
+            android:textSize="@dimen/x16"
+            app:testType="phone"
+            app:typeface="@string/app_font_regular" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x15"
+            android:layout_marginEnd="@dimen/x10"
+            android:layout_marginStart="@dimen/x10"
+            android:alpha="0.8"
+            android:background="@color/grey" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/edt_select_date"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x30"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:inputType="date"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:text="@string/select_date"
+            android:textColor="@color/light_grey"
+            android:textColorHint="@color/light_grey"
+            android:textSize="@dimen/x16"
+            app:testType="date"
+            app:typeface="@string/app_font_light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x15"
+            android:layout_marginEnd="@dimen/x10"
+            android:layout_marginStart="@dimen/x10"
+            android:alpha="0.8"
+            android:background="@color/grey" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:layout_marginBottom="@dimen/x10"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="@dimen/x10"
+        android:background="@drawable/loginbtn"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x18" />
+
+</LinearLayout>

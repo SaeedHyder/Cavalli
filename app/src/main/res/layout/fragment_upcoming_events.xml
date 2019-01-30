@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_no_data"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/no_data_available"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/x15"
+                android:visibility="gone"
+                app:typeface="Roboto-Regular.ttf" />
+
+            <LinearLayout
+                android:id="@+id/ll_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x400"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/x20"
+                    android:clipToPadding="false"
+                    android:paddingEnd="@dimen/x30"
+                    android:paddingStart="@dimen/x30" />
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_event_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x10"
+                    android:layout_marginTop="@dimen/x10"
+                    android:alpha="0.7"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x16"
+                    app:typeface="@string/app_font_light"
+                    tools:text="CAVALLI DJ KNIGHTS" />
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x10"
+                    android:layout_marginTop="@dimen/x2"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:alpha="0.9"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x18"
+                    app:typeface="@string/app_font_regular"
+                    tools:text="TUESDAY, Oct 24, 2017" />
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_reserved"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x10"
+                    android:layout_marginTop="@dimen/x5"
+                    android:alpha="0.9"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/app_golden"
+                    android:textSize="@dimen/x18"
+                    android:visibility="gone"
+                    app:typeface="@string/app_font_regular"
+                    tools:text="@string/reserved" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

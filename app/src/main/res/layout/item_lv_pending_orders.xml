@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/x10"
+        android:layout_marginTop="@dimen/x10"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/x120"
+            android:layout_height="@dimen/x120"
+            android:layout_marginEnd="@dimen/x10"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/x110"
+                android:layout_height="@dimen/x110"
+                android:layout_marginBottom="@dimen/x20"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_pending_orders"
+                    android:layout_width="@dimen/x250"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/goldcircle" />
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_oder_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x16"
+                    app:typeface="@string/app_font_light"
+                    tools:text="125675" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/x3"
+                android:alpha="0.7"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/x16"
+                android:visibility="gone"
+                app:typeface="@string/app_font_regular"
+                tools:text="0001234567" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/x3"
+                android:alpha="0.7"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/x16"
+                android:visibility="gone"
+                app:typeface="@string/app_font_light"
+                tools:text="Reisling" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/tv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/x3"
+                android:alpha="0.7"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/x15"
+                app:typeface="@string/app_font_light"
+                android:text="Please tap to view information." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/x5"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/x5"
+                    android:drawablePadding="@dimen/x5"
+                    android:drawableStart="@drawable/date1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/x12"
+                    app:typeface="@string/font_normal"
+                    tools:text="29-04-17" />
+
+                <View
+                    android:layout_width="@dimen/x1"
+                    android:layout_height="match_parent"
+                    android:background="@color/view_gray" />
+
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x5"
+                    android:drawablePadding="@dimen/x5"
+                    android:drawableStart="@drawable/time1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/x12"
+                    app:typeface="@string/font_normal"
+                    tools:text="03:00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="@dimen/x5"
+                android:orientation="horizontal">
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/x3"
+                    android:layout_weight="0.4"
+                    android:alpha="0.7"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/app_golden"
+                    android:textSize="@dimen/x14"
+                    app:typeface="@string/app_font_bold"
+                    tools:text="AED 23.00" />
+
+                <LinearLayout
+                    android:id="@+id/ll_status"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="@dimen/x2"
+                    android:layout_weight="0.6"
+                    android:gravity="start"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        tools:background="@drawable/pending" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical">
+
+                        <com.ingic.cavalliclub.ui.views.AnyTextView
+                            android:id="@+id/tv_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/x5"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/pending"
+                            android:textSize="@dimen/x14"
+                            app:typeface="@string/app_font_regular"
+                            tools:text="Completed" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:alpha="0.6"
+        android:background="@color/viewLine" />
+
+</LinearLayout>
+

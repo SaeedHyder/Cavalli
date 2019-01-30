@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x55"
+        android:orientation="horizontal">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txtNotifications"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/x55"
+            android:layout_weight="0.4"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/x15"
+            android:text="@string/notification"
+            android:textColor="@color/app_gray"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/font_normal" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:gravity="end">
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_no"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/x7"
+                android:gravity="start|center_vertical"
+                android:text="No"
+                android:textColor="@color/app_gray"
+                android:textSize="@dimen/x14"
+                app:typeface="@string/font_normal" />
+
+            <ToggleButton
+                android:id="@+id/toggleBtn"
+                android:layout_width="@dimen/x40"
+                android:layout_height="@dimen/x30"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/txt_no"
+                android:background="@drawable/selector_toggle"
+                android:checked="true"
+                android:textOff=""
+                android:textOn="" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/x10"
+                android:layout_marginStart="@dimen/x7"
+                android:layout_toEndOf="@+id/toggleBtn"
+                android:gravity="start|center_vertical"
+                android:text="Yes"
+                android:textColor="@color/app_golden"
+                android:textSize="@dimen/x14"
+                app:typeface="@string/font_normal" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine" />
+
+    <LinearLayout
+        android:id="@+id/ll_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txtChangePassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x55"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/x15"
+            android:text="@string/change_password"
+            android:textColor="@color/app_gray"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/font_normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/viewLine" />
+
+    </LinearLayout>
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/txtChangePhone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x55"
+        android:gravity="start|center_vertical"
+        android:paddingStart="@dimen/x15"
+        android:text="@string/change_phone_number"
+        android:textColor="@color/app_gray"
+        android:textSize="@dimen/x14"
+        app:typeface="@string/font_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine"
+        android:visibility="visible" />
+
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/txtEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x55"
+        android:gravity="start|center_vertical"
+        android:paddingStart="@dimen/x15"
+        android:text="@string/edit_profile"
+        android:textColor="@color/app_gray"
+        android:textSize="@dimen/x14"
+        app:typeface="@string/font_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine"
+        android:visibility="visible" />
+
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/txtBillingDetail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x55"
+        android:gravity="start|center_vertical"
+        android:paddingStart="@dimen/x15"
+        android:text="@string/billing_detail"
+        android:textColor="@color/app_gray"
+        android:textSize="@dimen/x14"
+        android:visibility="gone"
+        app:typeface="@string/font_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine"
+        android:visibility="gone" />
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/txtPrivacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x55"
+        android:gravity="start|center_vertical"
+        android:paddingStart="@dimen/x15"
+        android:text="@string/privacy_policy"
+        android:textColor="@color/app_gray"
+        android:textSize="@dimen/x14"
+        android:visibility="gone"
+        app:typeface="@string/font_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine"
+        android:visibility="gone" />
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/txtTermsCond"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x55"
+        android:gravity="start|center_vertical"
+        android:paddingStart="@dimen/x15"
+        android:text="@string/terms_condition"
+        android:textColor="@color/app_gray"
+        android:textSize="@dimen/x14"
+        android:visibility="gone"
+        app:typeface="@string/font_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x55"
+        android:orientation="horizontal">
+
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/x15"
+            android:text="@string/version"
+            android:textColor="@color/app_gray"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/font_normal" />
+
+
+        <TextView
+            android:id="@+id/tvVersionCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/x10"
+            android:text="1.0.0" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine" />
+
+</LinearLayout>

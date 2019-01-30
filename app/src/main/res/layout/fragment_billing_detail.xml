@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/x25">
+
+    <LinearLayout
+        android:id="@+id/ll_creditCard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:drawablePadding="@dimen/x10"
+            android:drawableStart="@drawable/creditcard"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/x10"
+            android:text="@string/credit_card"
+            android:textColor="@color/app_gray"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/font_normal" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:layout_weight="0.1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_centerVertical="true"
+                android:src="@drawable/rightarrow1" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine" />
+
+    <LinearLayout
+        android:id="@+id/ll_CashOnDelivery"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:layout_marginTop="@dimen/x15"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:drawablePadding="@dimen/x10"
+            android:drawableStart="@drawable/cashdelivery"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/x10"
+            android:text="@string/cash_on_delivery"
+            android:textColor="@color/app_gray"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/font_normal" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:layout_weight="0.1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_centerVertical="true"
+                android:src="@drawable/rightarrow1" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine" />
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/x10"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="@dimen/x110"
+            android:layout_height="@dimen/x110"
+            android:elevation="@dimen/x10"
+            app:cardCornerRadius="@dimen/x8">
+
+        <ImageView
+            android:id="@+id/ivNotification"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/placeholder_thumb"
+            android:scaleType="fitXY"
+            />
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/x8"
+            android:layout_marginTop="@dimen/x5"
+            android:orientation="vertical">
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x15"
+                tools:text="Party Night"
+                android:alpha="0.9"
+                app:typeface="@string/font_normal" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/tv_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x5"
+                android:textColor="@color/app_gray"
+                android:textSize="@dimen/x12"
+                tools:text="@string/lorem_ipsum_long"
+                android:maxLines="5"
+                app:typeface="@string/font_normal" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginStart="@dimen/x10"
+        android:layout_marginEnd="@dimen/x10"
+        android:background="@color/view_gray_dark" />
+
+</LinearLayout>

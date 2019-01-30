@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x200">
+
+
+        <ImageView
+            android:id="@+id/iv_picture_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/placeholder_banner"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:background="@color/black" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x50"
+            android:layout_marginTop="@dimen/x5"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/titleMenuBtn"
+                android:layout_width="@dimen/x30"
+                android:layout_height="@dimen/x30"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x10"
+                android:padding="@dimen/x5"
+                android:src="@drawable/nav" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/x5"
+                android:src="@drawable/logo_splash_updated"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_centerHorizontal="true"
+            android:elevation="@dimen/x10"
+            app:cardCornerRadius="@dimen/x8">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/x80"
+                android:layout_height="@dimen/x80"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/placeholder_thumb" />
+        </android.support.v7.widget.CardView>
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txt_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/txt_email_address"
+            android:layout_below="@+id/cardView"
+            android:gravity="center_horizontal"
+            tools:text="John anderson"
+            android:layout_marginLeft="@dimen/x5"
+            android:layout_marginRight="@dimen/x5"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x16"
+            app:typeface="@string/app_font_bold" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txt_email_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_userName"
+            android:layout_marginLeft="@dimen/x5"
+            android:layout_marginRight="@dimen/x5"
+            android:alpha="0.6"
+            android:gravity="center_horizontal"
+            tools:text="johnanderson@sampleemail.com"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/app_font_regular" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:alpha="0.2"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x90"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_bar_orders"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_bar_orders"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/barorder" />
+
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_bar_orders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x5"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/bar_orders"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ll_myevents"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_myevents"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/myevents2" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_myevents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x5"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/my_events"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ll_guest_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_guest_list"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/guestlist2" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_guest_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/x5"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/my_guest"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="@color/black"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:id="@+id/ll_reservations"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_reservation"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/reservation"/>
+
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_reservation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:singleLine="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/x5"
+                android:alpha="0.8"
+                android:text="@string/reservations"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal"/>
+
+        </LinearLayout>
+        <!--profile removed and added in settings-->
+        <LinearLayout
+            android:id="@+id/ll_profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/profile2" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/x5"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/profile"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:alpha="0.2"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x90"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_membership"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_membership"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/membership" />
+
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_membership"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x5"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/membership"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ll_guest_list_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_guest_list_main"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/guestlist2" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_guest_list_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/x5"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/guest_list"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ll_competition"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_competition"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/competition" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_competition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x5"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/competition"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ll_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/message" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/x5"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/messages"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x1"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ll_favorite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x40"
+                android:src="@drawable/fav" />
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_favorite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/x5"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/favorites"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x10"
+                app:typeface="@string/font_normal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:alpha="0.2"
+        android:background="@color/black" />
+
+</LinearLayout>

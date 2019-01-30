@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x350"
+                    android:layout_marginEnd="@dimen/x50"
+                    android:layout_marginStart="@dimen/x50"
+                    android:layout_marginTop="@dimen/x10">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/x40" />
+
+                    <ImageView
+                        android:id="@+id/iv_photo_song"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/placeholder_banner" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/iv_play"
+                            android:layout_width="@dimen/x70"
+                            android:layout_height="@dimen/x70"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:background="@drawable/play1"
+                            android:scaleType="fitXY"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/iv_pasue"
+                            android:layout_width="@dimen/x70"
+                            android:layout_height="@dimen/x70"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:background="@drawable/pause3"
+                            android:scaleType="fitXY"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_track_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x10"
+                    android:layout_marginTop="@dimen/x10"
+                    android:alpha="0.7"
+                    android:gravity="center_vertical"
+                    android:text="R O S A Y W/ DJ MAD BEATS"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x18"
+                    app:typeface="@string/app_font_light" />
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_performing_now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x10"
+                    android:layout_marginTop="@dimen/x5"
+                    android:gravity="center_vertical"
+                    android:text="PERFORMING NOW"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x18"
+                    app:typeface="@string/app_font_semi_bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1"
+                    android:layout_marginEnd="@dimen/x10"
+                    android:layout_marginStart="@dimen/x10"
+                    android:layout_marginTop="@dimen/x15"
+                    android:alpha="0.3"
+                    android:background="@color/black" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1"
+                    android:layout_marginEnd="@dimen/x10"
+                    android:layout_marginStart="@dimen/x10"
+                    android:layout_marginTop="@dimen/x15"
+                    android:background="@color/viewLine" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/x10"
+                    android:layout_marginEnd="@dimen/x60"
+                    android:layout_marginStart="@dimen/x60"
+                    android:layout_marginTop="@dimen/x10"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/x30"
+                        android:layout_height="@dimen/x30"
+                        android:background="@drawable/volume" />
+
+                    <SeekBar
+                        android:id="@+id/seekBarSound"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/x15"
+                        android:background="@null"
+                        android:paddingEnd="@dimen/x3"
+                        android:paddingStart="@dimen/x3"
+                        android:progress="100"
+                        android:progressDrawable="@drawable/progress_background"
+                        android:splitTrack="false"
+                        android:thumb="@drawable/circle_seek_bar"
+                        android:thumbOffset="1dp"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1"
+                    android:layout_marginBottom="@dimen/x15"
+                    android:layout_marginEnd="@dimen/x10"
+                    android:layout_marginStart="@dimen/x10"
+                    android:background="@color/viewLine"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                        android:id="@+id/txt_updates"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/x10"
+                        android:layout_marginEnd="@dimen/x10"
+                        android:layout_marginStart="@dimen/x10"
+                        android:layout_marginTop="@dimen/x10"
+                        android:layout_weight="0.8"
+                        android:alpha="0.8"
+                        android:text="@string/latest_updates"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/x16"
+                        app:typeface="@string/app_font_semi_bold" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_see_all"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/x10"
+                        android:layout_marginEnd="@dimen/x10"
+                        android:layout_marginTop="@dimen/x10"
+                        android:layout_weight="0.3"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <com.ingic.cavalliclub.ui.views.AnyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/x8"
+                            android:layout_marginStart="@dimen/x8"
+                            android:alpha="0.8"
+                            android:text="@string/see_all"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/x16"
+                            app:typeface="@string/app_font_regular" />
+
+                        <ImageView
+                            android:layout_width="@dimen/x9"
+                            android:layout_height="@dimen/x9"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rightarrow" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/txt_no_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/no_data_available"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/x13"
+                    android:layout_margin="@dimen/x20"
+                    android:visibility="gone"
+                    app:typeface="Roboto-Regular.ttf" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view_music"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/x10"
+                    android:nestedScrollingEnabled="true"
+                    android:visibility="gone"
+                    android:orientation="horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

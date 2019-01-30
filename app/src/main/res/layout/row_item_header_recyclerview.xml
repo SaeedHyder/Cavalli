@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_category"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="@dimen/x15"
+        android:layout_marginEnd="@dimen/x15"
+        android:layout_height="wrap_content"
+       >
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txt_category"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/x15"
+            android:paddingStart="@dimen/x15"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal"
+            android:singleLine="true"
+            android:text="Invite Guest"
+            android:textColor="@color/app_golden"
+            android:textSize="@dimen/x16"
+            app:typeface="@string/app_font_regular" />
+
+
+        <View
+            android:id="@+id/viewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x5"
+            android:layout_alignEnd="@+id/txt_category"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/txt_category"
+            android:layout_below="@+id/txt_categories"
+            android:background="@color/app_golden" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

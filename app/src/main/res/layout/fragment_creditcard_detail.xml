@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/x25"
+    android:background="@color/white">
+
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:button="@drawable/selector_radiobtn"
+        android:text="@string/credit_card"
+        android:checked="true"
+        android:textColor="@color/app_light_black"
+        android:layout_marginStart="@dimen/x5"
+        android:paddingStart="@dimen/x10"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_creditCard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:layout_marginTop="@dimen/x5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:drawablePadding="@dimen/x10"
+            android:drawableStart="@drawable/credditcard"
+            android:gravity="start|center_vertical"
+            android:background="@color/transparent"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:paddingStart="@dimen/x10"
+            android:hint="@string/credit_card_num"
+            android:textColor="@color/app_gray"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/font_normal" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:layout_weight="0.1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mastercard" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine" />
+
+
+    <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        android:id="@+id/txt_expiry_date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:drawablePadding="@dimen/x10"
+        android:layout_marginTop="@dimen/x10"
+        android:drawableStart="@drawable/expiry"
+        android:gravity="start|center_vertical"
+        android:background="@color/transparent"
+        android:imeOptions="actionNext"
+        android:inputType="date"
+        android:paddingStart="@dimen/x10"
+        android:hint="@string/expiration_date"
+        android:textColor="@color/app_gray"
+        android:textSize="@dimen/x14"
+        app:typeface="@string/font_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine"/>
+
+    <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        android:id="@+id/txt_cvv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:drawablePadding="@dimen/x10"
+        android:layout_marginTop="@dimen/x10"
+        android:drawableStart="@drawable/cvv"
+        android:gravity="start|center_vertical"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:background="@color/transparent"
+        android:paddingStart="@dimen/x10"
+        android:hint="@string/cvv"
+        android:textColor="@color/app_gray"
+        android:textSize="@dimen/x14"
+        app:typeface="@string/font_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine"/>
+
+    <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:drawablePadding="@dimen/x14"
+        android:layout_marginTop="@dimen/x10"
+        android:drawableStart="@drawable/name"
+        android:gravity="start|center_vertical"
+        android:background="@color/transparent"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName"
+        android:paddingStart="@dimen/x10"
+        android:hint="@string/name_appearing_on_the_card"
+        android:textColor="@color/app_gray"
+        android:textSize="@dimen/x14"
+        app:typeface="@string/font_normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/viewLine"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:layout_marginTop="@dimen/x25"
+        android:layout_marginBottom="@dimen/x10"
+        android:background="@drawable/loginbtn"
+        android:text="@string/update"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x14" />
+
+</LinearLayout>

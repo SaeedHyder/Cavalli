@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder_banner"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x50"
+                android:layout_marginTop="@dimen/x5"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/titleBackBtn"
+                    android:layout_width="@dimen/x30"
+                    android:layout_height="@dimen/x30"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:padding="@dimen/x5"
+                    android:src="@drawable/backbtn"/>
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/x5"
+                    android:alpha="0.8"
+                    android:text="Details"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/x19"
+                    app:typeface="@string/app_font_light" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txt_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+            android:layout_marginTop="@dimen/x10"
+            android:alpha="0.8"
+            tools:text="Take a selfie in Restaurant"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x18"
+            app:typeface="@string/app_font_regular" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.2"
+            android:background="@color/black" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+            android:alpha="0.4"
+            tools:text="@string/lorem_ipsum_small"
+            android:paddingBottom="@dimen/x10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/app_font_light" />
+
+        <LinearLayout
+            android:id="@+id/ll_staus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="@dimen/x20"
+            android:layout_marginEnd="@dimen/x20"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                tools:background="@drawable/pending" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical">
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/x5"
+                    android:gravity="center_vertical"
+                    tools:text="Pending"
+                    android:textColor="@color/pending"
+                    android:textSize="@dimen/x16"
+                    app:typeface="@string/app_font_regular" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

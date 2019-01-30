@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginEnd="@dimen/x10"
+            android:layout_marginStart="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:gravity="start"
+            android:text="List Name"
+            android:textColor="@color/app_golden"
+            android:textSize="@dimen/x20"
+            app:typeface="@string/app_font_regular" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_guest_list"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x30"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+            android:layout_marginTop="@dimen/x10"
+            android:alpha="0.4"
+            android:gravity="center_vertical"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x15"
+            app:typeface="@string/app_font_light"
+            tools:text="Andrew Johnson" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+            android:alpha="0.6"
+            android:background="@color/black" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginEnd="@dimen/x10"
+            android:layout_marginStart="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:gravity="start"
+            android:text="Guest List"
+            android:textColor="@color/app_golden"
+            android:textSize="@dimen/x20"
+            app:typeface="@string/app_font_regular" />
+
+        <com.ingic.cavalliclub.ui.views.ExpandedListView
+            android:id="@+id/lv_guest_lists"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/ll_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_gv_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/x20"
+                android:layout_marginStart="@dimen/x20"
+                android:scaleType="fitXY"
+                android:src="@drawable/empty" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/x20"
+            android:layout_marginLeft="@dimen/x40"
+            android:layout_marginRight="@dimen/x40"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@drawable/loginbtn"
+            android:gravity="center"
+            android:text="Add More Guest"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x18"/>
+
+    </LinearLayout>
+</ScrollView>

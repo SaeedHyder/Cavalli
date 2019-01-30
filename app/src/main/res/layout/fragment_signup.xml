@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cavali_"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="@dimen/x20"
+            android:layout_height="@dimen/x20"
+            android:layout_margin="@dimen/x15"
+            android:background="@drawable/backbtn"
+            android:padding="@dimen/x30" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollview_bigdaddy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:fillViewport="true"
+            android:orientation="vertical"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x30"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x10"
+                    android:layout_marginTop="@dimen/x10"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/profile"
+                    android:drawablePadding="@dimen/x10"
+                    android:gravity="center_vertical"
+                    android:hint="@string/full_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:textColor="@color/light_grey"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/x16"
+                    app:testType="personFullName"
+                    app:typeface="@string/app_font_regular" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@color/white" />
+
+                <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                    android:id="@+id/edt_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x30"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x10"
+                    android:layout_marginTop="@dimen/x20"
+                    android:background="@color/transparent"
+                    android:drawableLeft="@drawable/email"
+                    android:drawablePadding="@dimen/x10"
+                    android:gravity="center_vertical"
+                    android:hint="@string/email_address"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:textColor="@color/light_grey"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/x16"
+                    app:testType="email"
+                    app:typeface="@string/app_font_regular" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/x5"
+                    android:layout_marginStart="@dimen/x5"
+                    android:layout_marginTop="@dimen/x10"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/x25"
+                        android:layout_height="@dimen/x20"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/x5"
+                        android:src="@drawable/phone" />
+
+                    <com.hbb20.CountryCodePicker
+                        android:id="@+id/ccp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:ccpDialog_showPhoneCode="true"
+                        app:ccp_contentColor="@color/light_grey"
+                        app:ccp_showFlag="false"
+                        app:ccp_showPhoneCode="true"
+                        android:gravity="center_vertical"
+                        app:ccp_textSize="16sp"
+                        app:ccp_showNameCode="false"/>
+
+                    <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                        android:id="@+id/edt_phone_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1.5dp"
+                        android:layout_marginEnd="@dimen/x5"
+                        android:gravity="center_vertical"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:hint="@string/phone_number"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="20"
+                        android:paddingEnd="@dimen/x5"
+                        android:paddingStart="@dimen/x5"
+                        android:scrollHorizontally="true"
+                        android:scrollbars="horizontal"
+                        android:singleLine="true"
+                        android:textColor="@color/light_grey"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="15sp"
+                        app:testType="phone"
+                        app:typeface="@string/app_font_regular" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@color/white" />
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/tv_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x30"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/x5"
+                    android:layout_marginStart="@dimen/x10"
+                    android:layout_marginTop="@dimen/x10"
+                    android:drawableLeft="@drawable/cake"
+                    android:drawablePadding="@dimen/x10"
+                    android:gravity="center_vertical"
+                    android:text="@string/date_of_birth"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/x16"
+                    app:typeface="@string/app_font_regular" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x30"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x10"
+                    android:layout_marginTop="@dimen/x10"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/x25"
+                        android:layout_height="@dimen/x20"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/gender" />
+
+                    <Spinner
+                        android:id="@+id/sp_gender"
+                        style="@style/spinner_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x30"
+                        android:layout_marginStart="@dimen/x8"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1"
+                    android:layout_marginBottom="@dimen/x5"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:id="@+id/ll_passwords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                        android:id="@+id/edt_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x30"
+                        android:layout_marginLeft="@dimen/x10"
+                        android:layout_marginRight="@dimen/x10"
+                        android:layout_marginTop="@dimen/x20"
+                        android:background="@color/transparent"
+                        android:drawableLeft="@drawable/pass"
+                        android:drawablePadding="@dimen/x10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/password"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword"
+                        android:maxLength="35"
+                        android:maxLines="1"
+                        android:textColor="@color/light_grey"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/x16"
+                        app:testType="alphaNumeric"
+                        app:typeface="@string/app_font_regular" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginBottom="@dimen/x5"
+                        android:layout_marginTop="@dimen/x5"
+                        android:background="@color/white" />
+
+                    <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                        android:id="@+id/edt_cfm_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x30"
+                        android:layout_marginLeft="@dimen/x10"
+                        android:layout_marginRight="@dimen/x10"
+                        android:layout_marginTop="@dimen/x20"
+                        android:background="@color/transparent"
+                        android:drawableLeft="@drawable/pass"
+                        android:drawablePadding="@dimen/x10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/cfm_password"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:maxLength="35"
+                        android:maxLines="1"
+                        android:textColor="@color/light_grey"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/x16"
+                        app:testType="alphaNumeric"
+                        app:typeface="@string/app_font_regular" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x1"
+                        android:layout_marginTop="@dimen/x5"
+                        android:background="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="@dimen/x20"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <CheckBox
+                        android:id="@+id/rb_terms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/selector_radiobtn"
+                        android:checked="false"
+                        android:padding="@dimen/x10"
+                        android:gravity="center"
+                        android:textColor="@color/light_grey"
+                        android:textColorHint="@color/light_grey"
+                        android:textSize="@dimen/x16" />
+
+
+                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                        android:id="@+id/tv_terms_condition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:paddingBottom="@dimen/x10"
+                        android:paddingTop="@dimen/x10"
+                        android:text="Accept Terms and Conditions"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/x13"
+                        app:typeface="@string/app_font_regular" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_btn_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_signup"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x45"
+                        android:layout_marginLeft="@dimen/x15"
+                        android:layout_marginRight="@dimen/x15"
+                        android:layout_marginTop="@dimen/x20"
+                        android:background="@drawable/loginbtn"
+                        android:text="@string/signup"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/x15" />
+
+                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/x10"
+                        android:gravity="center"
+                        android:text="@string/or"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/x14"
+                        app:typeface="@string/app_font_regular" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_fb"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x45"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:layout_marginRight="@dimen/x20"
+                    android:background="@drawable/fbbtn"
+                    android:text="@string/signup_with_facebook"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/x18"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_loginfacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x45"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:layout_marginRight="@dimen/x15"
+                    android:layout_marginTop="@dimen/x10"
+                    android:background="@drawable/fbbtn"
+                    android:orientation="horizontal">
+
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/loginButton_fb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                        android:id="@+id/txtFacebookLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/x40"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="@string/signup_with_facebook"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/x15"
+                        app:testType="email"
+                        app:typeface="Roboto-Regular.ttf" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/x10"
+                    android:layout_marginTop="@dimen/x10"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/x2"
+                        android:text="Already a User?"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/x14"
+                        app:typeface="@string/app_font_regular" />
+
+                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                        android:id="@+id/tv_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x2"
+                        android:text="Login Now"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/x14"
+                        app:typeface="@string/app_font_regular" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
+

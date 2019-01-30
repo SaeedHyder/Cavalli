@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl_searchbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x50"
+            android:layout_below="@id/iv_header"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_marginBottom="@dimen/x10">
+
+            <LinearLayout
+                android:id="@+id/ll_search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/searchbar"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                    android:id="@+id/edt_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginRight="@dimen/x10"
+                    android:paddingStart="@dimen/x10"
+                    android:paddingEnd="@dimen/x10"
+                    android:alpha="0.6"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/search"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:textColor="@color/light_grey"
+                    android:textColorHint="@color/light_grey"
+                    android:textSize="@dimen/x16"
+                    app:testType="personFullName"
+                    app:typeface="@string/app_font_light" />
+
+                <ImageView
+                    android:id="@+id/iv_search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/search"
+                    android:padding="@dimen/x5"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/x20"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/txt_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:text="Please type something to search."
+        android:alpha="0.6"
+        android:textColor="@color/dark_grey"
+        android:layout_gravity="center"
+        app:typeface="Roboto-Regular.ttf"
+        android:textSize="@dimen/x15" />
+
+    <ListView
+        android:id="@+id/lv_home_search_listing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/x15"
+        android:layout_marginEnd="@dimen/x15"
+        android:scrollbars="none"
+        android:divider="@null" />
+
+</LinearLayout>

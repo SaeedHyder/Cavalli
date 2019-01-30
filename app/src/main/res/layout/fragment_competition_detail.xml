@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/placeholder_banner" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x50"
+                android:layout_marginTop="@dimen/x5"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/titleBackBtn"
+                    android:layout_width="@dimen/x30"
+                    android:layout_height="@dimen/x30"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:padding="@dimen/x5"
+                    android:src="@drawable/backbtn" />
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:alpha="0.8"
+                    android:padding="@dimen/x5"
+                    android:text="Details"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/x19"
+                    app:typeface="@string/app_font_light" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txt_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+            android:layout_marginTop="@dimen/x10"
+            android:alpha="0.8"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x18"
+            app:typeface="@string/app_font_regular"
+            tools:text="Take a selfie in Restaurant" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginBottom="@dimen/x5"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+            android:layout_marginTop="@dimen/x5"
+            android:alpha="0.2"
+            android:background="@color/black" />
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/x20"
+            android:layout_marginStart="@dimen/x20"
+            android:alpha="0.4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/app_font_light"
+            tools:text="@string/lorem_ipsum_very_small" />
+
+        <LinearLayout
+            android:id="@+id/llTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x30"
+                android:layout_marginRight="@dimen/x10"
+                android:layout_marginStart="@dimen/x20"
+                android:layout_marginTop="@dimen/x30"
+                android:background="@color/transparent"
+                android:gravity="center_vertical"
+                android:hint="@string/full_names"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:textColor="@color/light_grey"
+                android:textColorHint="@color/light_grey"
+                android:textSize="@dimen/x16"
+                app:testType="personFullName"
+                app:typeface="@string/app_font_light" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginBottom="@dimen/x5"
+                android:layout_marginEnd="@dimen/x20"
+                android:layout_marginStart="@dimen/x20"
+                android:layout_marginTop="@dimen/x5"
+                android:alpha="0.2"
+                android:background="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llImageBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x10"
+                android:layout_marginEnd="@dimen/x20"
+                android:layout_marginStart="@dimen/x20"
+
+                android:layout_marginTop="@dimen/x10"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.5"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="@dimen/x45"
+                        android:layout_height="@dimen/x45"
+                        android:layout_marginRight="@dimen/x5"
+                        android:elevation="10dp"
+                        app:cardCornerRadius="8dp">
+
+                        <ImageView
+                            android:id="@+id/iv_photo"
+                            android:layout_width="@dimen/x45"
+                            android:layout_height="@dimen/x45"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/upload_image" />
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.5"
+                    android:gravity="end"
+                    android:orientation="vertical"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:id="@+id/iv_camera"
+                        android:layout_width="@dimen/x25"
+                        android:layout_height="@dimen/x22"
+                        android:layout_marginStart="@dimen/x10"
+                        android:background="@drawable/camera" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginBottom="@dimen/x5"
+                android:layout_marginEnd="@dimen/x20"
+                android:layout_marginStart="@dimen/x20"
+                android:alpha="0.2"
+                android:background="@color/black" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/x20"
+            android:layout_marginEnd="@dimen/x35"
+            android:layout_marginStart="@dimen/x35"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@drawable/loginbtn"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x18" />
+
+    </LinearLayout>
+</ScrollView>

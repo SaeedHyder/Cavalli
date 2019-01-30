@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_rv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/x150"
+            android:layout_height="@dimen/x140"
+            android:layout_marginRight="@dimen/x5"
+            android:elevation="@dimen/x10"
+            app:cardCornerRadius="@dimen/x8">
+
+            <ImageView
+                android:id="@+id/iv_latest_updates"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/placeholder_thumb"
+                android:adjustViewBounds="true"/>
+
+        </android.support.v7.widget.CardView>
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/updates_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x5"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x20"
+            android:alpha="0.8"
+            android:ellipsize="marquee"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:scrollHorizontally="true"
+            android:gravity="center"
+            android:textSize="@dimen/x14"
+            app:typeface="@string/app_font_regular"
+            tools:text="Joe Smith" />
+    </LinearLayout>
+</LinearLayout>

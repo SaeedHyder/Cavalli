@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/txt_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/x15"
+            android:gravity="center"
+            android:text="@string/no_data_available"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x17"
+            android:visibility="gone"
+            app:typeface="@string/font_bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x350"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/x10"
+                android:paddingEnd="@dimen/x20"
+                android:paddingStart="@dimen/x20"
+                android:paddingTop="@dimen/x15">
+
+                <ImageView
+                    android:id="@+id/iv_card"
+                    android:layout_width="@dimen/x350"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/placeholder_banner" />
+
+                <ImageView
+                    android:id="@+id/CardLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="@dimen/x55"
+                    android:visibility="invisible"
+                    tools:src="@drawable/cardlogo" />
+
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/memberShip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/x60"
+                    android:layout_marginTop="@dimen/x20"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_gray_logo"
+                    android:textSize="@dimen/x18"
+                    android:visibility="invisible"
+                    app:typeface="@string/font_normal"
+                    tools:text="Platinum Membership" />
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/memberShipPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/x40"
+                    android:layout_marginTop="@dimen/x5"
+                    android:alpha="0.7"
+                    android:maxLines="1"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_gray_logo"
+                    android:textSize="@dimen/x16"
+                    app:typeface="@string/font_normal"
+                    tools:text="Lorem Ipsum is simply dummy text" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/x25"
+                android:layout_marginStart="@dimen/x25"
+                android:orientation="vertical">
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/txt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_card"
+                    android:layout_marginTop="@dimen/x10"
+                    android:alpha="0.9"
+                    android:text="What Includes?"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x15"
+                    app:typeface="@string/font_normal" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x1"
+                    android:layout_below="@+id/txt_title"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@color/view_gray" />
+
+                <com.ingic.cavalliclub.ui.views.AnyTextView
+                    android:id="@+id/txt_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view"
+                    android:layout_marginTop="@dimen/x5"
+                    android:lineSpacingExtra="@dimen/x3"
+                    android:textColor="@color/app_gray"
+                    android:textSize="@dimen/x12"
+                    app:typeface="@string/font_normal"
+                    tools:text="@string/lorem_ipsum" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

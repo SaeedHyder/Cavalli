@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_showOtherDates="none"
+        app:mcv_leftArrowMask="@drawable/leftarrow"
+        app:mcv_rightArrowMask="@drawable/rightarrow"
+        app:mcv_selectionColor="#FFF" />
+
+        <Button
+            android:id="@+id/btn_view_events"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x40"
+            android:layout_marginStart="@dimen/x35"
+            android:layout_marginEnd="@dimen/x35"
+            android:background="@drawable/loginbtn"
+            android:text="@string/view_events"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x18" />
+    </LinearLayout>
+</ScrollView>

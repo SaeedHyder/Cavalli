@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "551337139209",
+    "firebase_url": "https://cavalliclub-72f20.firebaseio.com",
+    "project_id": "cavalliclub-72f20",
+    "storage_bucket": "cavalliclub-72f20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551337139209:android:fcbfaebfd543d564",
+        "android_client_info": {
+          "package_name": "com.ingic.cavalliclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551337139209-kd8hod7afhga660dl1i1eeie81tih102.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ingic.cavalliclub",
+            "certificate_hash": "4563938c281163c4f90916a5bbe922448f84728c"
+          }
+        },
+        {
+          "client_id": "551337139209-nsh6ppm9p5olk71kgdto67hrkqokqqih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsocQP5cGal5KdGyVH99RwOH5KPEQ96V0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551337139209-nsh6ppm9p5olk71kgdto67hrkqokqqih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

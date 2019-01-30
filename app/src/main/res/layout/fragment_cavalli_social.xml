@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/x30"
+        android:layout_marginStart="@dimen/x30"
+        android:layout_marginTop="@dimen/x20"
+        android:alpha="0.8"
+        android:gravity="center_vertical"
+        android:text="@string/follow_us_on_social_networks"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x16"
+        app:typeface="@string/app_font_light" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginBottom="@dimen/x10"
+        android:layout_marginEnd="@dimen/x20"
+        android:layout_marginStart="@dimen/x20"
+        android:layout_marginTop="@dimen/x10"
+        android:alpha="0.2"
+        android:background="@color/black" />
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/tv_descriptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/x40"
+        android:layout_marginStart="@dimen/x40"
+        android:alpha="0.4"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x12"
+        app:typeface="@string/app_font_light"
+        tools:text="@string/cavalli_social_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/x60"
+        android:layout_marginStart="@dimen/x60"
+        android:layout_marginTop="@dimen/x20"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_fb"
+            android:layout_width="@dimen/x55"
+            android:layout_height="@dimen/x55"
+            android:layout_marginEnd="@dimen/x10"
+            android:background="@drawable/fb_circle" />
+
+        <ImageView
+            android:id="@+id/iv_twitter"
+            android:layout_width="@dimen/x55"
+            android:layout_height="@dimen/x55"
+            android:layout_marginEnd="@dimen/x10"
+            android:layout_marginStart="@dimen/x10"
+            android:background="@drawable/twitter_circle" />
+
+        <ImageView
+            android:id="@+id/iv_insta"
+            android:layout_width="@dimen/x55"
+            android:layout_height="@dimen/x55"
+            android:layout_marginStart="@dimen/x10"
+            android:background="@drawable/insta_circle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/x60"
+        android:layout_marginStart="@dimen/x60"
+        android:layout_marginTop="@dimen/x10"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_google"
+            android:layout_width="@dimen/x55"
+            android:layout_height="@dimen/x55"
+            android:layout_marginEnd="@dimen/x10"
+            android:background="@drawable/google_circle"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_youtube"
+            android:layout_width="@dimen/x55"
+            android:layout_height="@dimen/x55"
+            android:layout_marginEnd="@dimen/x10"
+            android:background="@drawable/youtube_circle" />
+
+        <ImageView
+            android:id="@+id/iv_whatsapp"
+            android:layout_width="@dimen/x55"
+            android:layout_height="@dimen/x55"
+            android:layout_marginStart="@dimen/x10"
+            android:layout_marginEnd="@dimen/x10"
+            android:background="@drawable/whatsapp" />
+
+        <ImageView
+            android:id="@+id/iv_call"
+            android:layout_width="@dimen/x55"
+            android:layout_height="@dimen/x55"
+            android:layout_marginStart="@dimen/x10"
+            android:background="@drawable/call" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/x60"
+        android:layout_marginStart="@dimen/x60"
+        android:layout_marginTop="@dimen/x10"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_web"
+            android:layout_width="@dimen/x55"
+            android:layout_height="@dimen/x55"
+            android:background="@drawable/web" />
+
+    </LinearLayout>
+
+</LinearLayout>

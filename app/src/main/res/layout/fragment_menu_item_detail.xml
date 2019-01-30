@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x160"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/placeholder_banner" />
+
+        <LinearLayout
+            android:layout_width="@dimen/x130"
+            android:layout_height="@dimen/x35"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ribbon">
+
+            <com.ingic.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                tools:text="AED 23.00"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x16"
+                app:typeface="@string/app_font_bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/x20"
+        android:layout_marginEnd="@dimen/x20"
+        android:orientation="vertical">
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x15"
+            android:alpha="0.8"
+            tools:text="Cavali Special BBQ Roll"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x16"
+            app:typeface="@string/app_font_light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginTop="@dimen/x6"
+            android:alpha="0.6"
+            android:background="@color/view_gray"/>
+
+        <com.ingic.cavalliclub.ui.views.AnyTextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x6"
+            tools:text="@string/lorem_ipsum_very_small"
+            android:lineSpacingExtra="@dimen/x3"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/x12"
+            app:typeface="@string/app_font_light" />
+
+        <ListView
+            android:id="@+id/lv_menu_item_detail"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/x15"
+            android:layout_marginBottom="@dimen/x10"
+            android:scrollbars="none"
+            android:layout_height="match_parent"
+            android:divider="@null"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

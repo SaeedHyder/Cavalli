@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/x25">
+
+    <com.ingic.cavalliclub.ui.views.AnyTextView
+        android:id="@+id/txtPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/x5"
+        android:text="@string/old_phone_num"
+        android:textColor="@color/app_golden"
+        android:textSize="@dimen/x13"
+        app:typeface="@string/font_normal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/x25"
+            android:layout_height="@dimen/x20"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/x5"
+            android:src="@drawable/phone" />
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/Countrypicker"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/x5"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/x8"
+            app:ccp_autoDetectCountry="false"
+            app:ccp_contentColor="@color/light_grey"
+            app:ccpDialog_textColor="@color/light_grey"
+            app:ccp_defaultNameCode="AE"
+            app:ccp_hintExampleNumber="true"
+            app:ccp_hintExampleNumberType="MOBILE"
+            app:ccp_showArrow="false"
+            app:ccp_showFlag="false"
+            app:ccp_showNameCode="false"
+            app:ccp_textGravity="LEFT"
+            app:ccp_textSize="@dimen/x14" />
+
+        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+            android:id="@+id/edt_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/x5"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="20"
+            android:paddingEnd="@dimen/x5"
+            android:paddingStart="@dimen/x5"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal"
+            android:singleLine="true"
+            android:textColor="@color/light_grey"
+            android:textColorHint="@color/setting_field"
+            android:hint="0123456789"
+            android:textSize="@dimen/x13"
+            app:testType="phone"
+            app:typeface="@string/app_font_regular" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_marginTop="@dimen/x5"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x10"
+        android:background="@drawable/loginbtn"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x14" />
+
+
+</LinearLayout>
