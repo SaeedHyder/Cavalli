@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.ingic.cavalliclub.ui.views.AnyTextView
+    <com.application.cavalliclub.ui.views.AnyTextView
         android:id="@+id/txt_no_data"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -53,7 +53,7 @@
                 android:layout_marginTop="@dimen/x55" />
 
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/memberShip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
                 app:typeface="@string/font_bold"
                 tools:text="Platinum Membership" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/memberShipPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -77,12 +77,12 @@
                 android:layout_marginBottom="@dimen/x30"
                 android:layout_marginTop="@dimen/x20"
                 android:textAllCaps="true"
-                android:textColor="@color/text_gold_logo"
+                android:textColor="@color/text_gray_logo"
                 android:textSize="@dimen/x18"
                 app:typeface="@string/font_bold"
                 tools:text="Platinum Membership" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/memberShipDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

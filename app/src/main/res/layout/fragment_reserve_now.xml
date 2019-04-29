@@ -13,7 +13,7 @@
         android:layout_marginRight="@dimen/x20"
         android:orientation="vertical">
 
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/edt_reservation_title"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"
@@ -41,7 +41,7 @@
             android:alpha="0.3"
             android:background="@color/black" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/tv_name"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"
@@ -65,7 +65,7 @@
             android:alpha="0.3"
             android:background="@color/black" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/tv_email"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"
@@ -90,7 +90,7 @@
             android:alpha="0.3"
             android:background="@color/black" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/tv_phone_number"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"
@@ -114,7 +114,7 @@
             android:alpha="0.3"
             android:background="@color/black" />
 
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/edt_secondary_number"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"
@@ -142,7 +142,7 @@
             android:alpha="0.3"
             android:background="@color/black" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/edt_select_date"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"
@@ -231,7 +231,7 @@
             android:background="@drawable/rectangle_reservations"
             android:layout_marginTop="@dimen/x20">
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/x5"

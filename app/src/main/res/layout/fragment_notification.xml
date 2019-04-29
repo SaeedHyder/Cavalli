@@ -7,7 +7,7 @@
     android:background="@color/transparent"
     android:orientation="vertical">
 
-    <com.ingic.cavalliclub.ui.views.AnyTextView
+    <com.application.cavalliclub.ui.views.AnyTextView
         android:id="@+id/txt_no_data"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

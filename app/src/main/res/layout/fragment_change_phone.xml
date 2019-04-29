@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="@dimen/x25">
 
-    <com.ingic.cavalliclub.ui.views.AnyTextView
+    <com.application.cavalliclub.ui.views.AnyTextView
         android:id="@+id/txtPhoneNum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
             app:ccp_textGravity="LEFT"
             app:ccp_textSize="@dimen/x14" />
 
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/edt_phone_number"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

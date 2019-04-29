@@ -36,7 +36,7 @@
             android:orientation="vertical"
             android:visibility="gone">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_event_calendar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_cavalli_social"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
             android:orientation="vertical"
             android:visibility="gone">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_package_information"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_international_request"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_gallery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -165,7 +165,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_about_us"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -187,7 +187,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_privacy_policy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -209,7 +209,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_terms_condition"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -231,7 +231,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_logout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

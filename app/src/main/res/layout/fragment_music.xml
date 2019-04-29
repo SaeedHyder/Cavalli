@@ -70,7 +70,7 @@
                 </RelativeLayout>
 
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:id="@+id/tv_track_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                     android:textSize="@dimen/x18"
                     app:typeface="@string/app_font_light" />
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:id="@+id/tv_performing_now"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
                     android:orientation="horizontal"
                     android:visibility="gone">
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_updates"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -199,7 +199,7 @@
                         android:gravity="end"
                         android:orientation="horizontal">
 
-                        <com.ingic.cavalliclub.ui.views.AnyTextView
+                        <com.application.cavalliclub.ui.views.AnyTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="@dimen/x8"
@@ -219,7 +219,7 @@
 
                 </LinearLayout>
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:id="@+id/txt_no_data"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

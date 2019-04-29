@@ -46,7 +46,7 @@
             android:orientation="vertical"
             android:visibility="visible">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txtSenderChatLeft"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <com.ingic.cavalliclub.ui.views.AnyTextView
+    <com.application.cavalliclub.ui.views.AnyTextView
         android:id="@+id/tv_date_time_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
             android:orientation="vertical"
             android:visibility="visible">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txtReceiverChatRight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
 
     </RelativeLayout>
 
-    <com.ingic.cavalliclub.ui.views.AnyTextView
+    <com.application.cavalliclub.ui.views.AnyTextView
         android:id="@+id/tv_date_time_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

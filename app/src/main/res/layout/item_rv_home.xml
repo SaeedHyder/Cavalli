@@ -11,12 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_marginStart="@dimen/x5"
         android:layout_gravity="center_vertical">
 
         <android.support.v7.widget.CardView
             android:layout_width="@dimen/x150"
             android:layout_height="@dimen/x140"
-            android:layout_marginRight="@dimen/x5"
+            android:layout_margin="@dimen/x2"
             android:elevation="@dimen/x10"
             app:cardCornerRadius="@dimen/x8">
 
@@ -30,7 +31,7 @@
 
         </android.support.v7.widget.CardView>
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/updates_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

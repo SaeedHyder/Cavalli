@@ -21,15 +21,15 @@ repositories {
 }
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.ingic.cavalliclub"
+        applicationId "com.application.cavalliclub"
         minSdkVersion 19
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
-        versionName "1.0.9"
+        versionName "1.0.0"
         // Enabling multidex support.
         multiDexEnabled true
     }
@@ -57,7 +57,7 @@ dependencies {
     //RecyclerView
     implementation 'com.android.support:recyclerview-v7:27.1.1'
     implementation 'com.android.support:cardview-v7:27.1.1'
-    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
 
     implementation 'org.apache.commons:commons-lang3:3.1'
     implementation('com.andreabaccega:android-form-edittext:1.2.1@aar') {
@@ -82,9 +82,9 @@ dependencies {
     //compile 'com.google.code.gson:gson:2.6.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
     implementation project(':nineoldandroids-library-2.4.0')
-    implementation 'com.google.android.gms:play-services-base:10.2.6'
-    implementation 'com.google.firebase:firebase-messaging:10.2.6'
-    implementation 'com.google.android.gms:play-services:10.2.6'
+    implementation 'com.google.firebase:firebase-messaging:17.6.0'
+    implementation 'com.google.firebase:firebase-core:16.0.8'
+   // implementation 'com.google.android.gms:play-services:10.2.6'
     //compile 'com.prolificinteractive:material-calendarview:1.4.3'
     implementation 'com.kbeanie:image-chooser-library:1.5.8@aar'
     implementation project(':materialCalendar')
@@ -99,7 +99,7 @@ dependencies {
     implementation('com.crashlytics.sdk.android:crashlytics:2.9.5@aar') {
         transitive = true;
     }
-    implementation 'gun0912.ted:tedpermission:2.1.0'
+   // implementation 'gun0912.ted:tedpermission:2.1.0'
 }
 
 

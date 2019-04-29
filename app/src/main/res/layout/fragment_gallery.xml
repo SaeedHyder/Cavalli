@@ -16,7 +16,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_categories"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,8 +50,7 @@
             android:nestedScrollingEnabled="true"
             android:orientation="horizontal" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
-            android:id="@+id/txt_no_data"
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone"
@@ -69,7 +68,7 @@
             android:orientation="vertical"
             android:visibility="visible">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_updates"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -82,14 +81,35 @@
                 android:textSize="@dimen/x16"
                 app:typeface="@string/app_font_bold" />
 
+            <com.application.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_no_data"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x100"
+                android:visibility="gone"
+                android:gravity="center"
+                android:text="No image found"
+                android:textColor="@color/dark_grey"
+                android:layout_gravity="center"
+                app:typeface="Roboto-Regular.ttf"
+                android:textSize="@dimen/x15" />
+
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:nestedScrollingEnabled="true"
+                android:visibility="visible"
                 android:orientation="horizontal" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_all_images"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_other"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -102,7 +122,19 @@
                 android:textSize="@dimen/x16"
                 app:typeface="@string/app_font_bold" />
 
-            <com.ingic.cavalliclub.ui.views.ExpendedGridView
+            <com.application.cavalliclub.ui.views.AnyTextView
+                android:id="@+id/txt_all_images"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x100"
+                android:visibility="gone"
+                android:gravity="center"
+                android:text="No image found"
+                android:textColor="@color/dark_grey"
+                android:layout_gravity="center"
+                app:typeface="Roboto-Regular.ttf"
+                android:textSize="@dimen/x15" />
+
+            <com.application.cavalliclub.ui.views.ExpendedGridView
                 android:id="@+id/gv_gallery"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -112,6 +144,8 @@
                 android:scrollbars="none" />
 
         </LinearLayout>
+
+
     </LinearLayout>
 </LinearLayout>
 </ScrollView>

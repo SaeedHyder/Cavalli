@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.ingic.cavalliclub.ui.views.TitleBar
+            <com.application.cavalliclub.ui.views.TitleBar
                 android:id="@+id/header_main"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -77,7 +77,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/home2" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_home"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/calender2" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_events_booking"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -145,7 +145,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/settings2" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_settings"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -179,7 +179,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/notification2" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_notifications"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

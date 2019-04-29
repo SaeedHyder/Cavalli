@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:padding="@dimen/x20">
 
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/edt_fullname"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x40"
@@ -30,7 +30,7 @@
             android:layout_height="@dimen/x1"
             android:background="@color/view_gray" />
 
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/edt_subject"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x40"
@@ -49,7 +49,7 @@
             android:background="@color/view_gray" />
 
 
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/edt_msg"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x200"

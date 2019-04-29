@@ -255,6 +255,7 @@
     <dimen name="x208">416dp</dimen>
     <dimen name="x209">418dp</dimen>
     <dimen name="x210">420dp</dimen>
+    <dimen name="x230">460dp</dimen>
     <dimen name="x250">500dp</dimen>
     <dimen name="x280">560dp</dimen>
     <dimen name="x300">600dp</dimen>

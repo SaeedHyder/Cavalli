@@ -1,52 +1,45 @@
 {
   "project_info": {
-    "project_number": "551337139209",
-    "firebase_url": "https://cavalliclub-72f20.firebaseio.com",
-    "project_id": "cavalliclub-72f20",
-    "storage_bucket": "cavalliclub-72f20.appspot.com"
+    "project_number": "80216298929",
+    "firebase_url": "https://cavali.firebaseio.com",
+    "project_id": "cavali",
+    "storage_bucket": "cavali.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:551337139209:android:fcbfaebfd543d564",
+        "mobilesdk_app_id": "1:80216298929:android:a94c173fabc75de6",
         "android_client_info": {
-          "package_name": "com.ingic.cavalliclub"
+          "package_name": "com.application.cavalliclub"
         }
       },
       "oauth_client": [
         {
-          "client_id": "551337139209-kd8hod7afhga660dl1i1eeie81tih102.apps.googleusercontent.com",
+          "client_id": "80216298929-1k2b99ncdfqateeis1ii08k6k8gov11n.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.ingic.cavalliclub",
-            "certificate_hash": "4563938c281163c4f90916a5bbe922448f84728c"
+            "package_name": "com.application.cavalliclub",
+            "certificate_hash": "d3b45d4958b305c928fc34c7f1facd13048c5c25"
           }
         },
         {
-          "client_id": "551337139209-nsh6ppm9p5olk71kgdto67hrkqokqqih.apps.googleusercontent.com",
+          "client_id": "80216298929-md85cmtprq3qssa8l4tu3vetto54v32h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDsocQP5cGal5KdGyVH99RwOH5KPEQ96V0"
+          "current_key": "AIzaSyCxNiGMivPt4nXwQNNZUbdgyl9jr3w4lMs"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "551337139209-nsh6ppm9p5olk71kgdto67hrkqokqqih.apps.googleusercontent.com",
+              "client_id": "80216298929-md85cmtprq3qssa8l4tu3vetto54v32h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

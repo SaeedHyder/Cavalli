@@ -33,7 +33,7 @@
                 android:layout_marginTop="@dimen/x20"
                 android:gravity="center_vertical" />
 
-            <com.ingic.cavalliclub.ui.views.AnyEditTextView
+            <com.application.cavalliclub.ui.views.AnyEditTextView
                 android:id="@+id/guest_name"
                 android:layout_width="0dp"
                 android:layout_weight="0.8"
@@ -64,7 +64,7 @@
             android:alpha="0.8"
             android:background="@color/grey" />
 
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/edt_guest_email"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"
@@ -94,7 +94,7 @@
             android:alpha="0.8"
             android:background="@color/grey" />
 
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/edt_guest_number"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"
@@ -124,7 +124,7 @@
             android:alpha="0.8"
             android:background="@color/grey" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/edt_select_date"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"

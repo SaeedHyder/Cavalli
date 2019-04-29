@@ -1,0 +1,87 @@
+package com.application.cavalliclub.global;
+
+public class WebServiceConstants {
+    public static final String SERVICE_URL = "";
+    //local
+    //public static final String Local_SERVICE_URL = "http://10.1.18.153/cavalli/api/";
+    //live
+//    public static final String Local_SERVICE_URL = "http://cavalli.stagingic.com/api/";
+//    public static final String PAYMENT_URL = "http://cavalli.stagingic.com/";
+    public static final String Local_SERVICE_URL = "http://cavalliapp.com/api/";
+    public static final String PAYMENT_URL = "http://cavalliapp.com/";
+
+    public static final String SUCCESS_RESPONSE_CODE = "200";
+    public static final String SUCCESS = "Success";
+    public static final String ERROR_RESPONSE_CODE = "404";
+
+    public static final String SIMPLE_SIGN_UP = "SimpleSignUp";
+    public static final String SOCIAL_MEDIA_SIGN_UP = "SOCIAL_MEDIA_SIGN_UP";
+    public static final String SOCIAL_MEDIA_LOGIN = "SOCIAL_MEDIA_LOGIN";
+    public static final String LOGIN = "Login";
+    public static final String VERIFICATION = "Verification";
+    public static final String VERIFICATIONNEWPASSWORD = "VERIFICATIONNEWPASSWORD";
+    public static final String ABOUT_US = "ABOUT_US";
+    public static final String PRIVACY_POLICY = "PRIVACY_POLICY";
+    public static final String TERMS_AND_CONDITION = "TERMS_AND_CONDITION";
+    public static final String MENU = "MENU";
+    public static final String MENU_CATEGORIES = "MENU_CATEGORIES";
+    public static final String RESERVE_NOW = "RESERVE_NOW";
+    public static final String LATEST_UPDATES = "LATEST_UPDATES";
+    public static final String LOGOUT_TOKEN = "LOGOUT_TOKEN";
+    public static final String GET_RESERVATIONS = "GET_RESERVATIONS";
+    public static final String EDIT_RESERVATIONS = "EDIT_RESERVATIONS";
+    public static final String CANCEL_RESERVATIONS = "CANCEL_RESERVATIONS";
+    public static final String FORGOT_PASSWORD = "FORGOT_PASSWORD";
+    public static final String CHANGE_PASSWORD = "CHANGE_PASSWORD";
+    public static final String RESET_PASSWORD = "RESET_PASSWORD";
+    public static final String INTERNATIONAL_REQUEST = "INTERNATIONAL_REQUEST";
+    public static final String UPDATE_PROFILE = "UPDATE_PROFILE";
+    public static final String GET_COMPETITIONS = "GET_COMPETITIONS";
+    public static final String PARTICIPATE_COMPETITIONS = "PARTICIPATE_COMPETITIONS";
+    public static final String HISTORY_COMPETITIONS = "HISTORY_COMPETITIONS";
+    public static final String BAR_CATEGORY = "BAR_CATEGORY";
+    public static final String TAX_DATA = "TAX_DATA";
+    public static final String ADD_ORDER = "ADD_ORDER";
+    public static final String CAVALLI_EVENTS = "CAVALLI_EVENTS";
+    public static final String MUSIC_EVENTS = "MUSIC_EVENTS";
+    public static final String INQUIRY = "INQUIRY";
+    public static final String GET_MEMBERSHIPS = "GET_MEMBERSHIPS";
+    public static final String PURCHASE_MEMBERSHIPS = "PURCHASE_MEMBERSHIPS";
+    public static final String MEMBERSHIP_HISTORY = "MEMBERSHIP_HISTORY";
+    public static final String GET_NOTIFICATIONS = "GET_NOTIFICATIONS";
+    public static final String ORDER_HISTORY_PENDING = "ORDER_HISTORY_PENDING";
+    public static final String GET_MESSAGES = "GET_MESSAGES";
+    public static final String GET_MESSAGES_THREADS = "GET_MESSAGES_THREADS";
+    public static final String GET_MESSAGES_THREADS_AGAIN = "GET_MESSAGES_THREADS_AGAIN";
+    public static final String ADD_MESSAGES = "ADD_MESSAGES";
+    public static final String CALENDAR_EVENTS = "CALENDAR_EVENTS";
+    public static final String MARK_UNMARK_EVENTS = "MARK_UNMARK_EVENTS";
+    public static final String LIVE_MUSIC = "LIVE_MUSIC";
+    public static final String GET_LIST = "GET_LIST";
+    public static final String EDIT_LIST = "EDIT_LIST";
+    public static final String DELETE_LIST = "DELETE_LIST";
+    public static final String CREATE_LIST = "CREATE_LIST";
+    public static final String EDIT_LIST_TITLE = "EDIT_LIST_TITLE";
+    public static final String ADD_GUEST_LIST_MEMBER = "ADD_GUEST_LIST_MEMBER";
+    public static final String ADD_GUEST_LIST_SEPARATE = "ADD_GUEST_LIST_SEPARATE";
+    public static final String UPCOMING_EVENTS = "UPCOMING_EVENTS";
+    public static final String HISTORY_EVENTS = "HISTORY_EVENTS";
+    public static final String GALLERY = "GALLERY";
+    public static final String GALLERY_CATEGORIES = "GALLERY_CATEGORIES";
+    public static final String GUEST_LIST_PROFILE_UPCOMING = "GUEST_LIST_PROFILE_UPCOMING";
+    public static final String GUEST_LIST_PROFILE_HISTORY = "GUEST_LIST_PROFILE_HISTORY";
+    public static final String PUSH_NOTIFICATION_TOGGLE_OFF = "PUSH_NOTIFICATION_TOGGLE_OFF";
+    public static final String PUSH_NOTIFICATION_TOGGLE_ON = "PUSH_NOTIFICATION_TOGGLE_ON";
+    public static final String HOME_SEARCH = "HOME_SEARCH";
+    public static final String HOME_SEARCH_EVENT = "HOME_SEARCH_EVENT";
+    public static final String HOME_SEARCH_NEWS= "HOME_SEARCH_NEWS";
+    public static final String HOME_SEARCH_PRODUCT = "HOME_SEARCH_PRODUCT";
+    public static final String PUSH_CHECKER = "PUSH_CHECKER";
+    public static final String GUEST_CATEGORIES = "GUEST_CATEGORIES";
+    public static final String CAVALLI_SOCIAL_LINKS = "CAVALLI_SOCIAL_LINKS";
+    public static final String DELETE_NOTIFICATIONS = "DELETE_NOTIFICATIONS";
+    public static final String CHECKVERIFICATIONNEW = "CHECKVERIFICATIONNEW";
+    public static final String CHECKVERIFICATIONOLD = "CHECKVERIFICATIONOLD";
+    public static final String GET_RESERVATION_CATEGORIES = "GET_RESERVATION_CATEGORIES";
+    public static final String BANNERIMAGE = "BANNERIMAGE";
+}

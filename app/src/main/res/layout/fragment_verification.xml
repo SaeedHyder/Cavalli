@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -50,7 +50,7 @@
                     android:textSize="@dimen/x16"
                     app:typeface="@string/app_font_regular" />
 
-                <com.ingic.cavalliclub.ui.views.PinEntryEditText
+                <com.application.cavalliclub.ui.views.PinEntryEditText
                     android:id="@+id/txt_pin_entry"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

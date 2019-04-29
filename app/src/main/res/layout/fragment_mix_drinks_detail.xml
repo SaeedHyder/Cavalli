@@ -33,7 +33,7 @@
                 android:gravity="center"
                 android:padding="@dimen/x10">
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:id="@+id/tv_amount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
 
         </RelativeLayout>
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_heading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             android:alpha="0.3"
             android:background="@color/viewLine" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/tv_category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
             android:textSize="@dimen/x12"
             app:typeface="@string/app_font_light" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/tv_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

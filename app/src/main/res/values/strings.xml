@@ -8,7 +8,7 @@
     <string name="drawer_open">open</string>
     <string name="drawer_close">close</string>
 
-    <string name="api_key">AIzaSyCDylplefNyWlLDoBL_n2VFjwlMWvq3sBg  </string>
+    <string name="api_key">AIzaSyCDylplefNyWlLDoBL_n2VFjwlMWvq3sBg</string>
     <string name="app_name">Cavalli Club</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -26,15 +26,6 @@
     <string name="crash_toast_text">Sorry for inconvenience, we will get this issue fixed!</string>
     <string name="msg_connection_failed">Error! Connection to server failed.</string>
     <string name="msg_connection_error">Please check your internet connection</string>
-
-    <!-- Date Time -->
-    <string name="common.months">months</string>
-    <string name="common.weeks">weeks</string>
-    <string name="common.days">days</string>
-    <string name="common.hrs">hrs</string>
-    <string name="common.mins">mins</string>
-    <string name="common.secs">secs</string>
-    <string name="common.ago">ago</string>
 
     <!-- AnyTextView -->
     <string name="typeface_not_found">Typeface %$1 not found, or could not be loaded.

@@ -37,7 +37,7 @@
             android:src="@drawable/nav"
             android:visibility="visible" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_subHead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
             android:layout_alignStart="@+id/btnRight2"
             android:layout_alignTop="@+id/btnRight2">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txtBadge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -122,7 +122,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_categories1"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/x55"
@@ -160,7 +160,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_categories2"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/x55"
@@ -198,7 +198,7 @@
             android:layout_weight="1"
             android:visibility="gone">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_categories3"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/x55"
@@ -237,7 +237,7 @@
         android:orientation="vertical"
         android:visibility="gone">
 
-        <com.ingic.cavalliclub.ui.views.CustomRecyclerView
+        <com.application.cavalliclub.ui.views.CustomRecyclerView
             android:id="@+id/lv_categories"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

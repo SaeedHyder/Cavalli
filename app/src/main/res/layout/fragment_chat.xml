@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.ingic.cavalliclub.ui.views.AnyTextView
+    <com.application.cavalliclub.ui.views.AnyTextView
         android:id="@+id/txt_no_data"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -36,7 +36,7 @@
         android:layout_height="@dimen/x50"
         android:orientation="horizontal">
         
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/txtSendMessage"
             android:layout_width="0dp"
             android:layout_height="match_parent"

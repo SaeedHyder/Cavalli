@@ -40,7 +40,7 @@
                     android:padding="@dimen/x5"
                     android:src="@drawable/backbtn"/>
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -56,7 +56,7 @@
 
         </RelativeLayout>
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_heading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
             android:alpha="0.2"
             android:background="@color/black" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_date_day"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
                 android:textSize="@dimen/x14"
                 app:typeface="@string/app_font_bold" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_Date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -121,7 +121,7 @@
 
         </LinearLayout>
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/x20"
@@ -167,6 +167,7 @@
 
             <ImageView
                 android:id="@+id/iv_google"
+                android:visibility="gone"
                 android:layout_width="@dimen/x45"
                 android:layout_height="@dimen/x45"
                 android:layout_marginStart="@dimen/x10"

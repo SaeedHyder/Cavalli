@@ -2,6 +2,7 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainFrameLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -13,17 +14,17 @@
         <ImageView
             android:id="@+id/iv_header"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/x230"
             android:adjustViewBounds="true"
-            android:background="@drawable/topbanner"
-            android:scaleType="fitCenter" />
+            android:background="@drawable/banner"
+            android:scaleType="fitXY" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="@dimen/x150"
             android:layout_centerVertical="true"
             android:src="@drawable/new_logo_home"
-            android:visibility="visible" />
+            android:visibility="gone" />
 
         <RelativeLayout
             android:id="@+id/rl_2"
@@ -67,7 +68,7 @@
 
         </RelativeLayout>
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_heading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,7 +81,7 @@
             android:visibility="gone"
             app:typeface="@string/app_font_semi_bold" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_sub_heading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -111,7 +112,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:id="@+id/edt_name"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -178,7 +179,7 @@
                 android:textSize="@dimen/x18"
                 android:visibility="gone" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_categories"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -217,7 +218,7 @@
                         android:layout_height="@dimen/x40"
                         android:src="@drawable/reservation" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_reservation"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -257,7 +258,7 @@
                         android:layout_height="@dimen/x40"
                         android:src="@drawable/menu2" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_menu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -326,7 +327,7 @@
                         android:layout_height="@dimen/x40"
                         android:src="@drawable/myevents2" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_myevents"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -364,7 +365,7 @@
                         android:layout_height="@dimen/x40"
                         android:src="@drawable/competition" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_competition"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -410,7 +411,7 @@
                         android:src="@drawable/music2" />
 
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_music"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -446,7 +447,7 @@
                         android:layout_height="@dimen/x40"
                         android:src="@drawable/barorder" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_bar_ordering"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -483,7 +484,7 @@
                         android:layout_height="@dimen/x40"
                         android:src="@drawable/cavlinights2" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_cavalli_nights"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -521,7 +522,7 @@
                         android:layout_height="@dimen/x40"
                         android:src="@drawable/membership" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txt_membership"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -552,7 +553,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:id="@+id/txt_updates"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -577,7 +578,7 @@
                     android:layout_weight="0.3"
                     android:orientation="horizontal">
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/x8"
@@ -598,7 +599,7 @@
 
             </LinearLayout>
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_no_data"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -615,7 +616,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/x24"
-                android:layout_marginStart="@dimen/x5"
                 android:nestedScrollingEnabled="true"
                 android:orientation="horizontal" />
 

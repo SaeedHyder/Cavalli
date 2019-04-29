@@ -27,7 +27,7 @@
                 android:paddingStart="@dimen/x30"
                 android:layout_marginTop="@dimen/x20"/>
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_package_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
                 android:textSize="@dimen/x18"
                 app:typeface="@string/app_font_light" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/tv_package_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

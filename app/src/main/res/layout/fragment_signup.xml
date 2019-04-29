@@ -44,7 +44,7 @@
                 android:orientation="vertical"
                 android:visibility="visible">
 
-                <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                <com.application.cavalliclub.ui.views.AnyEditTextView
                     android:id="@+id/edt_name"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/x30"
@@ -73,7 +73,7 @@
                     android:layout_marginTop="@dimen/x5"
                     android:background="@color/white" />
 
-                <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                <com.application.cavalliclub.ui.views.AnyEditTextView
                     android:id="@+id/edt_email"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/x30"
@@ -129,7 +129,7 @@
                         app:ccp_textSize="16sp"
                         app:ccp_showNameCode="false"/>
 
-                    <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                    <com.application.cavalliclub.ui.views.AnyEditTextView
                         android:id="@+id/edt_phone_number"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -161,7 +161,7 @@
                     android:layout_marginTop="@dimen/x5"
                     android:background="@color/white" />
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:id="@+id/tv_dob"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/x30"
@@ -222,7 +222,7 @@
                     android:orientation="vertical"
                     android:visibility="visible">
 
-                    <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                    <com.application.cavalliclub.ui.views.AnyEditTextView
                         android:id="@+id/edt_password"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/x30"
@@ -251,7 +251,7 @@
                         android:layout_marginTop="@dimen/x5"
                         android:background="@color/white" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                    <com.application.cavalliclub.ui.views.AnyEditTextView
                         android:id="@+id/edt_cfm_password"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/x30"
@@ -304,7 +304,7 @@
                         android:textSize="@dimen/x16" />
 
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/tv_terms_condition"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -336,7 +336,7 @@
                         android:textColor="@color/black"
                         android:textSize="@dimen/x15" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -378,7 +378,7 @@
                         android:layout_height="wrap_content"
                         android:visibility="gone" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/txtFacebookLogin"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/x40"
@@ -402,7 +402,7 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="@dimen/x2"
@@ -411,7 +411,7 @@
                         android:textSize="@dimen/x14"
                         app:typeface="@string/app_font_regular" />
 
-                    <com.ingic.cavalliclub.ui.views.AnyTextView
+                    <com.application.cavalliclub.ui.views.AnyTextView
                         android:id="@+id/tv_login"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

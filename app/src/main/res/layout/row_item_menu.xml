@@ -34,7 +34,7 @@
 
                 android:background="@color/black" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_menuItem"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/x30"

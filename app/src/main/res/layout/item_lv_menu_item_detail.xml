@@ -11,7 +11,7 @@
         android:layout_marginTop="@dimen/x15"
         android:orientation="horizontal">
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/tv_type"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
             android:textSize="@dimen/x16"
             app:typeface="@string/app_font_light" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_amount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

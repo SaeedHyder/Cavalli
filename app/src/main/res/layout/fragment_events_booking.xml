@@ -17,7 +17,8 @@
         app:mcv_showOtherDates="none"
         app:mcv_leftArrowMask="@drawable/leftarrow"
         app:mcv_rightArrowMask="@drawable/rightarrow"
-        app:mcv_selectionColor="#FFF" />
+        app:mcv_selectionColor="@color/app_golden"
+        />
 
         <Button
             android:id="@+id/btn_view_events"

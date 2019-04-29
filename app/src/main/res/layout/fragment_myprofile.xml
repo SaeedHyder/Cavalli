@@ -76,7 +76,7 @@
                 android:src="@drawable/placeholder_thumb" />
         </android.support.v7.widget.CardView>
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_userName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
             android:textSize="@dimen/x16"
             app:typeface="@string/app_font_bold" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_email_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -133,7 +133,7 @@
                 android:src="@drawable/barorder" />
 
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_bar_orders"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -170,7 +170,7 @@
                 android:layout_height="@dimen/x40"
                 android:src="@drawable/myevents2" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_myevents"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -208,7 +208,7 @@
                 android:layout_height="@dimen/x40"
                 android:src="@drawable/guestlist2" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_guest_list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -250,7 +250,7 @@
                 android:src="@drawable/reservation"/>
 
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_reservation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -287,7 +287,7 @@
                 android:layout_height="@dimen/x40"
                 android:src="@drawable/profile2" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_profile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -334,7 +334,7 @@
                 android:src="@drawable/membership" />
 
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_membership"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -370,7 +370,7 @@
                 android:layout_height="@dimen/x40"
                 android:src="@drawable/guestlist2" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_guest_list_main"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -408,7 +408,7 @@
                 android:layout_height="@dimen/x40"
                 android:src="@drawable/competition" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_competition"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -445,7 +445,7 @@
                 android:layout_height="@dimen/x40"
                 android:src="@drawable/message" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -485,7 +485,7 @@
                 android:layout_height="@dimen/x40"
                 android:src="@drawable/fav" />
 
-            <com.ingic.cavalliclub.ui.views.AnyTextView
+            <com.application.cavalliclub.ui.views.AnyTextView
                 android:id="@+id/txt_favorite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

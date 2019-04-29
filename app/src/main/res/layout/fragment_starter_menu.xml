@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_no_data"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -38,7 +38,7 @@
                 android:alpha="0.5"
                 android:background="@color/black" />
 
-            <com.ingic.cavalliclub.ui.views.ExpendedGridView
+            <com.application.cavalliclub.ui.views.ExpendedGridView
                 android:id="@+id/lv_restaurant_menu"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="onClick"
+    android:fillViewport="true"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -41,7 +43,7 @@
                     android:padding="@dimen/x5"
                     android:src="@drawable/backbtn" />
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -57,7 +59,7 @@
 
         </RelativeLayout>
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_heading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,7 +82,7 @@
             android:alpha="0.2"
             android:background="@color/black" />
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,7 +100,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.ingic.cavalliclub.ui.views.AnyEditTextView
+            <com.application.cavalliclub.ui.views.AnyEditTextView
                 android:id="@+id/edt_name"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/x30"

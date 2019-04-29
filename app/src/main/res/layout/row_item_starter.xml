@@ -16,7 +16,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/placeholder_thumb" />
 
-    <com.ingic.cavalliclub.ui.views.AnyTextView
+    <com.application.cavalliclub.ui.views.AnyTextView
         android:id="@+id/txt_menuItem"
         android:layout_width="match_parent"
         android:layout_height="@dimen/x25"

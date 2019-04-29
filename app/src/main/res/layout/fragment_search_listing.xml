@@ -29,7 +29,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.ingic.cavalliclub.ui.views.AnyEditTextView
+                <com.application.cavalliclub.ui.views.AnyEditTextView
                     android:id="@+id/edt_name"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -69,7 +69,7 @@
 
     </RelativeLayout>
 
-    <com.ingic.cavalliclub.ui.views.AnyTextView
+    <com.application.cavalliclub.ui.views.AnyTextView
         android:id="@+id/txt_no_data"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

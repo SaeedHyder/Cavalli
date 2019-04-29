@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/x20">
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_about_us"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

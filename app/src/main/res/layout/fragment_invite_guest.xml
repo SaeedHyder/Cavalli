@@ -32,7 +32,7 @@
         </LinearLayout>
 
 
-        <com.ingic.cavalliclub.ui.views.ExpandedListView
+        <com.application.cavalliclub.ui.views.ExpandedListView
             android:id="@+id/lv_guest_lists"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

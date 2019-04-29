@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <LinearLayout
@@ -10,6 +11,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x140"
+            android:layout_margin="@dimen/x2"
+            android:elevation="@dimen/x10"
+            app:cardCornerRadius="@dimen/x8">
+
 
         <ImageView
             android:id="@+id/iv_gv_gallery"
@@ -17,6 +25,8 @@
             android:layout_height="@dimen/x140"
             android:scaleType="centerCrop"
             android:src="@drawable/placeholder_thumb" />
+
+        </android.support.v7.widget.CardView>
 
 
     </LinearLayout>

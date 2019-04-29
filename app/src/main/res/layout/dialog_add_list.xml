@@ -17,7 +17,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_Logout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -30,7 +30,7 @@
             android:textSize="20sp"
             app:typeface="Roboto-Regular.ttf" />
 
-        <com.ingic.cavalliclub.ui.views.AnyEditTextView
+        <com.application.cavalliclub.ui.views.AnyEditTextView
             android:id="@+id/edt_name_list"
             android:layout_width="match_parent"
             android:layout_height="@dimen/x30"

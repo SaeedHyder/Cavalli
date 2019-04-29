@@ -15,7 +15,7 @@
         android:layout_weight="0.9"
         android:scrollbars="none">
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/txt_privacy_policy"
             app:typeface="@string/app_font_light"
             android:layout_width="match_parent"

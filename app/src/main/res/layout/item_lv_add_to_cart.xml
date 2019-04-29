@@ -13,7 +13,7 @@
         android:orientation="horizontal"
         android:layout_marginTop="@dimen/x20">
 
-        <com.ingic.cavalliclub.ui.views.AnyTextView
+        <com.application.cavalliclub.ui.views.AnyTextView
             android:id="@+id/tv_drink_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
                     android:padding="@dimen/x10"
                     android:background="@drawable/plus" />
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:id="@+id/tv_qty"
                     android:layout_width="@dimen/x30"
                     android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                 android:gravity="end"
                 android:orientation="horizontal">
 
-                <com.ingic.cavalliclub.ui.views.AnyTextView
+                <com.application.cavalliclub.ui.views.AnyTextView
                     android:id="@+id/tv_amount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
