@@ -11,852 +11,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e727b914-d89a-4483-b43d-140cdb12aa27" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/release/CavalliClubRelease.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/BaseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/activities/DockActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/activities/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/activities/SplashActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/AddCartEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/AddEditGuestListEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/AddToCardJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/AndroidInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/BannerEnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/BarCategoriesEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/CategoriesEnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/ChatEnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/CmsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/CompetitionImageHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityAddToCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityCategoriesGuestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityCavalliNights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityCreateGuestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityEventImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityGallery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityGalleryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityGetTotalList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityGuestListMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityGuestListMemberProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityGuestListProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityHistoryProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityHomeSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityImageCavalliNights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityLatestCompetition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityLatestUpdatesMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityLiveMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMarkUnmarkCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMemberShipImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMembershipHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMembershipHistoryImages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMemberships.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMessagesEventDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMessagesThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMixDrinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityMyReservations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityOrderHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityOrderHistorys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityOrderProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityPendingOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityPendingsOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityProductDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityProfileEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityPushCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityReceiverDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityRecyclerviewHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityUpcomingEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/EntityUpcomingHistoryGuestListProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/FacebookLoginEnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/FavoriteEnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/GetCompetitionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/GetCompetitionHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/GetCompetitionImageEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/GetReservationsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/GuestListCategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/LatestUpdatesEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/MenuCategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/MenuCategoryParentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/MenuCategoryProductAttributeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/MenuCategoryProductImageEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/MenuEnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/MenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/NewReservationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/NewsImageLatestUpdatesEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/NotificationEnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/NotificationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/OurEventsEnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/PayNowEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/ProductBarCategoriesEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/ProductImageBarCategoriesEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/PurchaseMembershipEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/RestuatrantMenuEnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/SignUpEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/TaxEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/entities/UpdateProfileEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/AboutUsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/AddMoreFriendsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/AddToCartFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/BarOrderingFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/BillingDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/CavalliDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/CavalliNightsDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/CavalliNightsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/CavalliPager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/CavalliSocialFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/ChangePasswordFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/ChangePhoneNumFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/ChatFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/CompetitionHistoryDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/CompetitionHistoryFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/CreditCardDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/CurrentMembershipFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/EditProfilefragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/EventDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/EventHistoryFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/EventInquiryFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/EventReserveNowFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/EventsBookingFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/FavoriteFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/FilterMenuFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/ForgotPasswordFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/FragmentCompetitionDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/FragmentGalleryPager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/GalleryFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/GuestListListingFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/HistoryMembershipFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/HomeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/HomeMembershipFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/InquiriyFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/InternationalRequestFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/InviteGuestFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/InviteGuestHistoryProfileFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/InviteGuestUpcomingProfileFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/LatestCompetitionFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/LatestUpdateDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/LatestUpdatesMusicFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/LoginFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MembershipDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MembershipGoldFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MembershipPlatinumFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MembershipSilverFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MenuFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MenuItemDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MessagesFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MixDrinksDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MixDrinksFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MusicFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MusicPager1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MusicPager2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MusicPager3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MusicPlayerFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MyEventReservationFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MyGuestFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MyProfileFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/MyReservationsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/NotificationDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/NotificationsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/OrderHistoryBarFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/OrderTokenFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/OurEventsMusicFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/PackageDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/PendingOrderFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/PendingOrdersDetailProfileFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/PhoneNoVerificationFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/PrivacyPolicyFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/ReserveNowfragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/ResetPasswordFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/RestaurantMenuFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/SearchListingFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/SeeAllMusicFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/SettingFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/SideMenuFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/SignupFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/StarterMenuFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/StartetViewPagerMenuFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/TermsAndConditionFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/UpcomingEventsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/UpcomingEventsPager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/UpdatedEventReserveFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/UpdatedReserveFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/VerificationFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/WebViewFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/WebViewMembershipFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/fragments/abstracts/BaseFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/global/AppConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/global/SideMenuChooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/global/SideMenuDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/global/WebServiceConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/AnimationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/BasePreferenceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/BitmapHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/CacheHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/CameraHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/CapturePhotoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/CircleTransform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/DateHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/DatePickerHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/DialogHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/FacebookLoginHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/FileHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/Funcs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/GPSHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/GPSTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/InputHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/InternetHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/NotificationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/OSHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/PreferenceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/RecyclerItemClickListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/ScreenHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/SelectShareIntent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/ServiceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/SpinnerHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/TokenUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/UIHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/DeviceVolumeControlListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/FacebookLoginListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/FilterInterfaceListner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/GalleryGvItemClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/GalleryRvItemClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/IImageSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/LoadingListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/MenuInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/NotificationDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/RecyclerViewColorInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/RecyclerViewItemListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/SeeAllListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/SimpleDialogActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/TotalSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/ViewPagerClickListner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/ViewPagerItemClickListner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/interfaces/webServiceResponseLisener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/residemenu/ResideMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/residemenu/TouchDisableView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/CustomInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/EntityGalleryCategories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/GsonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/OKHttpClientCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/ProgressResponseBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/WebResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/WebService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/WebServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/entities/ResponseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/entities/ServiceDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/entities/ServiceDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/retrofit/entities/ServiceTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/services/MyFirebaseInstanceIDService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/services/MyFirebaseMessagingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/ArrayListExpandableAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/AdapterRecyclerViewBarOrdering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/AdapterRecyclerViewDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/AdapterRecyclerViewGallery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/AdapterRecyclerViewHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/AdapterRecyclerViewMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/Adapter_FragmentPager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/Adapter_ResourcePager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/ArrayListAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/ArrayListExpandableAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/CavalliNightsViewPagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/CustomPageAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/CustomSpinnerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/FilterableListAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/MyCustomPagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/RecyclerViewAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/TabViewPagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/UpcomingEventPagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/ViewPagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/ViewPagerAdapterMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderAddMoreFriends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderAddToCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderCategoriesGuestList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderCompetitionHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderEventMyReservations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderGallery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderGalleryCategories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderGuestHistoryProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderGuestUpcomingProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderInviteGuest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderLatestCompetition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderLatestUpdatesMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderMenuItemDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderMixDrinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderMyReservations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderPendingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderPendingOrdersDetailProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderSearchListing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/BinderSeeAllMusicFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/CategoryItemBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/ChatItemBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/ExpandableBarOrderBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/FavoriteItemBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/MenuItemBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/OurEventsItemBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/RestuarantMenuItemBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/binders/StarterItemBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/dialogs/DialogFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/viewbinders/abstracts/ExpandableListViewBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/viewbinders/abstracts/RecyclerViewBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/viewbinders/abstracts/ViewBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/AnyEditTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/AnyTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/CustomButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/CustomRatingBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/CustomRecyclerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/CustomScrollView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/ExpandedListView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/ExpendedGridView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/PinEntryEditText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/RoundedDrawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/TitleBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/TouchImageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/views/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_andreabaccega_android_form_edittext_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_mediarouter_v7_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_palette_v7_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_answers_1_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_beta_1_2_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_2_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_core_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_android_sdk_4_40_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_applinks_4_40_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_common_4_40_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_core_4_40_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_login_4_40_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_marketing_4_40_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_messenger_4_40_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_places_4_40_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_share_4_40_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_futuremind_recyclerfastscroll_fastscroll_0_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getkeepsafe_relinker_relinker_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_impl_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appinvite_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_awareness_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_clearcut_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_drive_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fitness_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_games_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_identity_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_iid_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_instantapps_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_nearby_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_panorama_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_plus_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_safetynet_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_api_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_v4_impl_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wallet_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wearable_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_appindexing_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_config_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_crash_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_common_10_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hbb20_ccp_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_karumi_dexter_5_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_kbeanie_image_chooser_library_1_5_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_makeramen_roundedimageview_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gun0912_ted_tedpermission_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_fabric_sdk_android_fabric_1_4_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_michaelrocks_libphonenumber_android_8_9_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_library_4_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__me_relex_circleindicator_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__se_emilsjolander_stickylistheaders_2_7_0.xml" beforeDir="false" />
+    <list default="true" id="e727b914-d89a-4483-b43d-140cdb12aa27" name="Default" comment="final code commit">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_libphonenumber_libphonenumber_7_2_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_libphonenumber_libphonenumber_7_2_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_5_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_5_1_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cavalli Api 27.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/BaseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/activities/DockActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/activities/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/activities/SplashActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/AddCartEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/AddEditGuestListEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/AddToCardJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/AndroidInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/BarCategoriesEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/CategoriesEnt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/ChatEnt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/CmsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/CompetitionImageHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityAddToCart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityCategoriesGuestList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityCavalliNights.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityCreateGuestList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityEventImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityGallery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityGalleryList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityGetTotalList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityGuestListMember.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityGuestListMemberProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityGuestListProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityHistoryProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityHomeSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityImageCavalliNights.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityLatestCompetition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityLatestUpdatesMusic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityLiveMusic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMarkUnmarkCalendar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMemberShipImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMembershipHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMembershipHistoryImages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMemberships.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMessages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMessagesEventDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMessagesThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMixDrinks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityMyReservations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityOrderHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityOrderHistorys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityOrderProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityPendingOrders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityPendingsOrders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityProductDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityProfileEvents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityPushCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityReceiverDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityRecyclerviewHome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityUpcomingEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/EntityUpcomingHistoryGuestListProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/FacebookLoginEnt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/FavoriteEnt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/GetCompetitionEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/GetCompetitionHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/GetCompetitionImageEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/GetReservationsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/GuestListCategoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/LatestUpdatesEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/MenuCategoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/MenuCategoryParentEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/MenuCategoryProductAttributeEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/MenuCategoryProductImageEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/MenuEnt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/MenuEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/NewReservationEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/NewsImageLatestUpdatesEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/NotificationEnt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/NotificationEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/OurEventsEnt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/PayNowEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/ProductBarCategoriesEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/ProductImageBarCategoriesEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/PurchaseMembershipEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/ResponseWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/RestuatrantMenuEnt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/SignUpEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/TaxEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/entities/UpdateProfileEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/AboutUsFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/AddMoreFriendsFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/AddToCartFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/BarOrderingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/BillingDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/CavalliDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/CavalliNightsDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/CavalliNightsFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/CavalliPager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/CavalliSocialFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/ChangePasswordFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/ChangePhoneNumFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/ChatFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/CompetitionHistoryDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/CompetitionHistoryFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/CreditCardDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/CurrentMembershipFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/EditProfilefragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/EventDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/EventHistoryFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/EventInquiryFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/EventReserveNowFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/EventsBookingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/FavoriteFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/FilterMenuFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/ForgotPasswordFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/FragmentCompetitionDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/FragmentGalleryPager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/GalleryFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/GuestListListingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/HistoryMembershipFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/HomeFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/InquiriyFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/InternationalRequestFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/InviteGuestFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/InviteGuestHistoryProfileFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/InviteGuestUpcomingProfileFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/LatestCompetitionFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/LatestUpdateDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/LatestUpdatesMusicFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/LoginFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MembershipDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MembershipGoldFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MembershipPlatinumFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MembershipSilverFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MenuFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MenuItemDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MessagesFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MixDrinksDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MixDrinksFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MusicFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MusicPager1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MusicPager2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MusicPager3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MusicPlayerFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MyEventReservationFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MyGuestFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MyProfileFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/MyReservationsFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/NotificationDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/NotificationsFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/OrderHistoryBarFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/OrderTokenFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/OurEventsMusicFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/PackageDetailFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/PendingOrderFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/PendingOrdersDetailProfileFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/PhoneNoVerificationFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/PrivacyPolicyFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/ReserveNowfragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/ResetPasswordFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/RestaurantMenuFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/SearchListingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/SeeAllMusicFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/SettingFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/SideMenuFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/SignupFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/StarterMenuFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/StartetViewPagerMenuFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/TermsAndConditionFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/UpcomingEventsFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/UpcomingEventsPager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/UpdatedEventReserveFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/UpdatedReserveFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/VerificationFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/WebViewFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/WebViewMembershipFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/fragments/abstracts/BaseFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/global/AppConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/global/SideMenuChooser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/global/SideMenuDirection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/global/WebServiceConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/AnimationHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/BasePreferenceHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/BitmapHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/CacheHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/CameraHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/CapturePhotoUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/CircleTransform.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/DateHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/DatePickerHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/DialogHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/FacebookLoginHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/FileHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/Funcs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/GPSHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/GPSTracker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/InputHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/InternetHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/NotificationHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/OSHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/PreferenceHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/RecyclerItemClickListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/ScreenHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/SelectShareIntent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/ServiceHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/SpinnerHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/TokenUpdater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/UIHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/helpers/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/DeviceVolumeControlListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/FacebookLoginListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/FilterInterfaceListner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/GalleryGvItemClick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/GalleryRvItemClick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/IImageSetter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/LoadingListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/MenuInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/NotificationDelete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/RecyclerViewColorInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/RecyclerViewItemListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/SeeAllListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/SimpleDialogActionListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/TotalSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/ViewPagerClickListner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/ViewPagerItemClickListner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/interfaces/webServiceResponseLisener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/map/abstracts/GoogleMapOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/map/abstracts/InfoWindowBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/map/abstracts/MapMarkerBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/residemenu/ResideMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/residemenu/TouchDisableView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/CustomInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/EntityGalleryCategories.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/GsonFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/OKHttpClientCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/ProgressResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/WebResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/WebService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/WebServiceFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/entities/ResponseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/entities/ServiceDate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/entities/ServiceDateTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/retrofit/entities/ServiceTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/services/MyFirebaseInstanceIDService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/services/MyFirebaseMessagingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/ArrayListExpandableAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/AdapterRecyclerViewBarOrdering.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/AdapterRecyclerViewDays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/AdapterRecyclerViewGallery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/AdapterRecyclerViewHome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/AdapterRecyclerViewMusic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/Adapter_FragmentPager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/Adapter_ResourcePager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/ArrayListAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/ArrayListExpandableAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/AutoCompleteAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/CavalliNightsViewPagerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/CustomPageAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/CustomSpinnerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/FilterableListAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/MyCustomPagerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/RecyclerViewAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/TabViewPagerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/UpcomingEventPagerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/ViewPagerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/adapters/ViewPagerAdapterMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderAddMoreFriends.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderAddToCart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderCategoriesGuestList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderCompetitionHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderEventMyReservations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderGallery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderGalleryCategories.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderGuestHistoryProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderGuestUpcomingProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderInviteGuest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderLatestCompetition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderLatestUpdatesMusic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderMenuItemDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderMessages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderMixDrinks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderMyReservations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderNotification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderPendingOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderPendingOrdersDetailProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderSearchListing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/BinderSeeAllMusicFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/CategoryItemBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/ChatItemBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/ExpandableBarOrderBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/FavoriteItemBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/MenuItemBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/OurEventsItemBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/RestuarantMenuItemBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/binders/StarterItemBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/dialogs/DialogFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/viewbinders/abstracts/ExpandableListViewBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/viewbinders/abstracts/RecyclerViewBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/viewbinders/abstracts/ViewBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/AnyEditTextView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/AnyTextView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/AutoCompleteLocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/CustomButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/CustomRatingBar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/CustomRecyclerView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/CustomScrollView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/ExpandedListView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/ExpendedGridView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/PinEntryEditText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/RoundedDrawable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/TitleBar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/TouchImageView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ingic/cavalliclub/ui/views/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dock.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/alert_dialoge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/alert_dialoge.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_guest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_guest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialogue_add_to_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialogue_add_to_cart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about_us.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about_us.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_more_guests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_more_guests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_to_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_to_cart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bar_ordering.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bar_ordering.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_billing_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_billing_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cavalli_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cavalli_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cavalli_nights.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cavalli_nights.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cavalli_nights_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cavalli_nights_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cavalli_social.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cavalli_social.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_phone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_phone.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_changepassword.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_changepassword.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_competition_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_competition_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_competition_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_competition_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_competition_history_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_competition_history_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_creditcard_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_creditcard_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_current_membership.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_current_membership.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_inquiry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_inquiry.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_updated_reserve.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_updated_reserve.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_events_booking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_events_booking.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_filter_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_filter_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_forgot_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_forgot_password.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_gallery.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_gallery_pager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_gallery_pager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_history_membership.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_history_membership.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_inquiriy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_inquiriy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_international_request.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_international_request.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_invite_guest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_invite_guest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_latest_competition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_latest_competition.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_latest_update_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_latest_update_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_latest_updates_music.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_latest_updates_music.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_membership_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_membership_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_membership_gold.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_membership_gold.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_membership_platinum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_membership_platinum.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_membership_silver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_membership_silver.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu_item_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu_item_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_messages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_messages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mix_drinks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mix_drinks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mix_drinks_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mix_drinks_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_music.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_music.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_music_player.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_music_player.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_reservations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_reservations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_myprofile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_myprofile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_order_history_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_order_history_bar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_order_token.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_order_token.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_our_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_our_events.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_package_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_package_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pending_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pending_order.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_privacypolicy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_privacypolicy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_reserve_now.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_reserve_now.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_reset_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_reset_password.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_resturant_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_resturant_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_listing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_listing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_setting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sidemenu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sidemenu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_starter_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_starter_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_termscondition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_termscondition.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_upcoming_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_upcoming_events.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_updated_reserve.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_updated_reserve.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_verification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_verification.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/header_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/header_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_display_dialoge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_display_dialoge.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_elv_parent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_elv_parent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_gv_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_gv_gallery.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_gv_gallery_categories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_gv_gallery_categories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_add_to_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_add_to_cart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_categories_guest_list_listing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_categories_guest_list_listing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_competition_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_competition_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_guest_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_guest_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_latest_competitions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_latest_competitions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_latest_updates_music.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_latest_updates_music.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_menu_item_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_menu_item_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_mix_drinks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_mix_drinks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_my_event_reservation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_my_event_reservation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_my_reservations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_my_reservations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_pending_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lv_pending_orders.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_messages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_messages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_pending_orders_detail_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_pending_orders_detail_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_rv_gallery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rv_gallery.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_rv_gallery_days.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rv_gallery_days.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_rv_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rv_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/logout_dialoge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/logout_dialoge.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/my_event_reserve_now.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/my_event_reserve_now.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pager_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/pager_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pager_item_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/pager_item_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_item_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_item_chat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_item_favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_item_favorite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_item_header_recyclerview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_item_header_recyclerview.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_item_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_item_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_item_our_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_item_our_events.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_item_restaurant_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_item_restaurant_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_item_starter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_item_starter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-hdpi/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-hdpi/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-large-mdpi/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-large-mdpi/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-xlarge-mdpi/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-xlarge-mdpi/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materialCalendar/materialCalendar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/materialCalendar/materialCalendar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/CustomSpinnerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/ui/adapters/CustomSpinnerAdapter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -911,22 +72,23 @@
     <session id="1940262357">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
           <entry key="gradle" value="14" />
-          <entry key="java" value="74" />
+          <entry key="java" value="76" />
           <entry key="jpg" value="9" />
           <entry key="json" value="2" />
           <entry key="png" value="2" />
@@ -938,7 +100,7 @@
           <entry key="CLASS" value="5" />
           <entry key="Groovy" value="14" />
           <entry key="Image" value="11" />
-          <entry key="JAVA" value="74" />
+          <entry key="JAVA" value="76" />
           <entry key="JSON" value="2" />
           <entry key="XML" value="24" />
         </counts>
@@ -947,6 +109,7 @@
         <counts>
           <entry key="gradle" value="19" />
           <entry key="java" value="221" />
+          <entry key="txt" value="17" />
           <entry key="xml" value="22" />
         </counts>
       </usages-collector>
@@ -954,27 +117,31 @@
         <counts>
           <entry key="Groovy" value="19" />
           <entry key="JAVA" value="221" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="22" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/activities/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/activities/SplashActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="175" column="11" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
+            <state relative-caret-position="123">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/activities/SplashActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="248">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -4416,6 +3583,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Cavalli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cavalli" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -4426,40 +3606,24 @@
             <path>
               <item name="Cavalli" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="Cavalli" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
               <item name="Cavalli" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="cavalliclub" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="Cavalli" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="cavalliclub" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cavalli" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Cavalli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cavalli" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -4683,12 +3847,21 @@
       <option name="presentableId" value="Default" />
       <updated>1553162023651</updated>
     </task>
+    <task id="LOCAL-00001" summary="final code commit">
+      <created>1556545641720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556545641720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -4704,7 +3877,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.5954447" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.489154" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.62906724" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -4724,6 +3897,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final code commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final code commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5194,10 +4371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="300" column="21" selection-start-line="300" selection-start-column="21" selection-end-line="300" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#12685#12745#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5237,10 +4410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-          <folding>
-            <element signature="e#2219#2231#0" expanded="true" />
-            <element signature="e#2879#2890#0" expanded="true" />
-          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
@@ -5249,10 +4418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="74" column="75" selection-start-line="74" selection-start-column="75" selection-end-line="74" selection-end-column="75" />
-          <folding>
-            <element signature="e#2295#2296#0" expanded="true" />
-            <element signature="e#2345#2346#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5274,12 +4439,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/Screenshots/20181106_145658.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/JPEG_1547798054355.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/Screenshots/20181106_145658.jpg" />
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/JPEG_1547798054355.jpg" />
     <entry file="file://$PROJECT_DIR$/nineoldandroids-library-2.4.0/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -5294,18 +4455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/compressed_cropped340229008.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/compressed_cropped-1951423789.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/1556366120096.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/1555086906412.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/compressed_cropped340229008.jpg" />
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/compressed_cropped-1951423789.jpg" />
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/1556366120096.jpg" />
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/1555086906412.jpg" />
     <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/Screenshots/Screenshot_20190429-155429.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -5319,12 +4472,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/JPEG_1549270204191.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/JPEG_1556284596046.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/JPEG_1549270204191.jpg" />
+    <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/htc-htc_desire_10_pro-LC71J1003693/sdcard/Pictures/JPEG_1556284596046.jpg" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -5346,20 +4495,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/Utils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/activities/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="123">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/activities/SplashActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/application/cavalliclub/helpers/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="248">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
